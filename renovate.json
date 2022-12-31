@@ -12,6 +12,7 @@
   "automergeType": "branch",
   "automergeStrategy": "rebase",
   "platformCommit": true,
+  "ignoreTests": true,
   "lockFileMaintenance": {
     "enabled": true
   },
