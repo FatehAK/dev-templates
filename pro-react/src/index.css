@@ -1,0 +1,12 @@
+@import url('node_modules/modern-normalize/modern-normalize.css');
+
+:root {
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

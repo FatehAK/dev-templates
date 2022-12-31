@@ -1,0 +1,3 @@
+function MyNpmPackage() {}
+
+export { MyNpmPackage };
