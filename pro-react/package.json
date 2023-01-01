@@ -1,12 +1,17 @@
 {
-  "name": "your_repo",
+  "name": "repo_name",
   "version": "1.0.0",
   "author": "AUTHOR_NAME",
   "private": true,
+  "description": "REPO_DESCRIPTION",
   "repository": {
     "type": "git",
-    "url": "https://github.com/USER_NAME/REPO_NAME"
+    "url": "https://github.com/AUTHOR_NAME/REPO_NAME"
   },
+  "bugs": {
+    "url": "https://github.com/AUTHOR_NAME/REPO_NAME/issues"
+  },
+  "homepage": "https://github.com/AUTHOR_NAME/REPO_NAME#readme",
   "scripts": {
     "start": "vite",
     "build:dev": "vite build --mode development",
@@ -91,8 +96,7 @@
     "vite-plugin-html-config": "^1.0.11",
     "vite-plugin-image-optimizer": "^1.0.6",
     "vite-plugin-minify": "^1.5.2",
-    "vite-plugin-pwa": "^0.14.0",
-    "wrangler": "^2.6.2"
+    "vite-plugin-pwa": "^0.14.0"
   },
   "pnpm": {
     "peerDependencyRules": {

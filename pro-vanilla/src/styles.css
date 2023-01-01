@@ -3,10 +3,3 @@
 :root {
   font-size: 100%;
 }
-
-*,
-*::before,
-*::after {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}

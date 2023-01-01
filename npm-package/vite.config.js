@@ -1,15 +1,12 @@
 import { resolve } from 'path';
 import { defineConfig } from 'vite';
-import strip from '@rollup/plugin-strip';
 import { visualizer } from 'rollup-plugin-visualizer';
 
-export default defineConfig(({ mode }) => {
-  const isProd = mode === 'production';
-  console.log(`✨ Running in ${isProd ? 'Production' : 'Development'}.\n`);
-
+export default defineConfig(() => {
   return {
     build: {
-      minify: isProd ? 'esbuild' : false,
+      // TODO: We don't minify packages used during bundling, you can turn it on if it will be served from browser
+      minify: false,
       lib: {
         entry: resolve(__dirname, 'src/index.js'), // TODO: update your entry point if required
         name: 'MyNpmPackage', // TODO: update this with your exposed var
@@ -19,7 +16,6 @@ export default defineConfig(({ mode }) => {
       rollupOptions: {
         external: [], // TODO: configure if you are using externals like node's fs or path modules
         plugins: [
-          isProd && strip(), // strips console and debugger statements from prod build
           visualizer({
             filename: 'reports/build-stats.html',
             gzipSize: true,

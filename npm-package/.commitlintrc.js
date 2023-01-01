@@ -1,4 +1,3 @@
-// refer: https://cz-git.qbb.sh/config/engineer
 module.exports = {
   rules: {
     'type-enum': [2, 'always', ['feat', 'fix', 'style', 'build', 'perf', 'chore', 'ci', 'refactor', 'test', 'docs', 'revert']],
@@ -15,6 +14,7 @@ module.exports = {
       scope: 'Scope (optional):',
       customScope: 'New Scope:',
       subject: 'Commit Message:',
+      footer: 'Any ISSUES related to this change:',
     },
     types: [
       { value: 'feat', name: '✨   feat' },
@@ -33,6 +33,6 @@ module.exports = {
     useEmoji: false,
     upperCaseSubject: true,
     customScopesAlias: 'new',
-    skipQuestions: ['body', 'breaking', 'footerPrefix', 'footer', 'confirmCommit'],
+    skipQuestions: ['body', 'breaking', 'footerPrefix', 'confirmCommit'],
   },
 };

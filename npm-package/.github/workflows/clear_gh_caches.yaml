@@ -1,6 +1,8 @@
-on: workflow_dispatch
+on:
+  schedule:
+    # At 00:00 on day-of-month 1 in every 2nd month. (i.e every 2 months)
+    - cron: '0 0 1 */2 *'
 
-# run this action manually to clean up any stale caches piling up
 name: clear_gh_caches
 
 jobs:
