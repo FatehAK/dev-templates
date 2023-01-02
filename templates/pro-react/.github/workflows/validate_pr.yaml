@@ -1,0 +1,75 @@
+on:
+  pull_request:
+    branches:
+      - main
+    paths-ignore:
+      - '**.md'
+
+name: validate_pr
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+
+      - name: Setup Node and pnpm-store cache
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+
+      - name: Dump versions
+        run: |
+          echo "node: $(node -v)"
+          echo "npm: $(npm -v)"
+          echo "pnpm: $(pnpm -v)"
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      # we save the the cache from prettier, eslint and stylelint into gh-cache so that subsequent lint jobs run faster
+      - name: Setup script cache
+        uses: actions/cache@v3
+        with:
+          path: node_modules/.cache
+          key: script-cache-${{ hashFiles('**/pnpm-lock.yaml') }}-run-id-${{ github.run_id }}
+          restore-keys: script-cache-${{ hashFiles('**/pnpm-lock.yaml') }}-run-id-
+
+      - name: Run lint
+        run: pnpm lint
+
+  Build:
+    name: Build
+    needs: lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+
+      - name: Setup Node and pnpm-store cache
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+
+      - name: Dump versions
+        run: |
+          echo "node: $(node -v)"
+          echo "npm: $(npm -v)"
+          echo "pnpm: $(pnpm -v)"
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build
+        run: pnpm build:prod
+
+      - name: Expose build report
+        uses: actions/upload-artifact@v3
+        with:
+          name: Build Stats
+          path: reports/build-stats.html
+          retention-days: 7
