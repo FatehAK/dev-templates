@@ -1,3 +1,0 @@
-function MyNpmPackage() {}
-
-export { MyNpmPackage };
