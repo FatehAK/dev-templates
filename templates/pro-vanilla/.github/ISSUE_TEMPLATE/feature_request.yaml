@@ -31,9 +31,7 @@ body:
       label: Validations
       description: Before submitting the issue, please make sure you do the following
       options:
-        # TODO: Update your author name and repo name below
-        - label: Read the [docs](https://github.com/AUTHOR_NAME/YOUR_REPO_NAME/#readme).
+        - label: Read the [docs](https://github.com/[AUTHOR_NAME]/[REPO_NAME]/#readme).
           required: true
-        # TODO: Update your author name and repo name below
-        - label: Check that there isn't [already an issue](https://github.com/AUTHOR_NAME/YOUR_REPO_NAME/issues) that requests the same feature to avoid creating a duplicate.
+        - label: Check that there isn't [already an issue](https://github.com/[AUTHOR_NAME]/[REPO_NAME]/issues) that requests the same feature to avoid creating a duplicate.
           required: true

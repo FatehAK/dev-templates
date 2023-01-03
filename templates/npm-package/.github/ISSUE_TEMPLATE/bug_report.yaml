@@ -1,6 +1,6 @@
 name: "\U0001F41E Bug report"
 description: Report an issue
-labels: [bug, need testing]
+labels: [ bug, need testing ]
 body:
   - type: markdown
     attributes:
@@ -52,9 +52,7 @@ body:
       label: Validations
       description: Before submitting the issue, please make sure you do the following
       options:
-        # TODO: Update your author name and package name below
-        - label: Read the [docs](https://github.com/AUTHOR_NAME/PACKAGE_NAME#readme).
+        - label: Read the [docs](https://github.com/[AUTHOR_NAME]/[REPO_NAME]#readme).
           required: true
-        # TODO: Update your author name and package name below
-        - label: Check that there isn't [already an issue](https://github.com/AUTHOR_NAME/PACKAGE_NAME/issues) that reports the same bug to avoid creating a duplicate.
+        - label: Check that there isn't [already an issue](https://github.com/[AUTHOR_NAME]/[REPO_NAME]/issues) that reports the same bug to avoid creating a duplicate.
           required: true

@@ -20,7 +20,7 @@ Please make sure that the pull request is limited to one type (feat, fix, etc.) 
 - [ ] PR adheres to the code style of this project
 - [ ] Related issues linked using `fixes #number`
 - [ ] Check that there isn't already a PR that solves the problem the same way to avoid creating a duplicate.
-- [ ] Lint and build have passed locally by running `pnpm lint && pnpm build`
+- [ ] Lint and build have passed locally by running `pnpm lint && pnpm build` <!-- TODO: Update your build command here -->
 - [ ] Code changes have been verified in local
 - [ ] Documentation added/updated if necessary
 

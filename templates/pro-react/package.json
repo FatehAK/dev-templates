@@ -1,17 +1,17 @@
 {
-  "name": "repo_name",
+  "name": "[REPO_NAME]",
   "version": "1.0.0",
-  "author": "AUTHOR_NAME",
+  "author": "[AUTHOR_NAME]",
   "private": true,
-  "description": "REPO_DESCRIPTION",
+  "description": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AUTHOR_NAME/REPO_NAME"
+    "url": "https://github.com/[AUTHOR_NAME]/[REPO_NAME]"
   },
   "bugs": {
-    "url": "https://github.com/AUTHOR_NAME/REPO_NAME/issues"
+    "url": "https://github.com/[AUTHOR_NAME]/[REPO_NAME]/issues"
   },
-  "homepage": "https://github.com/AUTHOR_NAME/REPO_NAME#readme",
+  "homepage": "https://github.com/[AUTHOR_NAME]/[REPO_NAME]#readme",
   "scripts": {
     "start": "vite",
     "build:dev": "vite build --mode development",

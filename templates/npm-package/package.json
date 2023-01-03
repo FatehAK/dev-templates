@@ -1,7 +1,7 @@
 {
-  "name": "package_name",
+  "name": "[REPO_NAME]",
   "version": "0.0.0",
-  "author": "AUTHOR_NAME",
+  "author": "[AUTHOR_NAME]",
   "files": [
     "dist/"
   ],
@@ -15,15 +15,15 @@
     },
     "./package.json": "./package.json"
   },
-  "description": "PACKAGE_DESCRIPTION",
+  "description": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AUTHOR_NAME/PACKAGE_NAME"
+    "url": "https://github.com/[AUTHOR_NAME]/[REPO_NAME]"
   },
   "bugs": {
-    "url": "https://github.com/AUTHOR_NAME/PACKAGE_NAME/issues"
+    "url": "https://github.com/[AUTHOR_NAME]/[REPO_NAME]/issues"
   },
-  "homepage": "https://github.com/AUTHOR_NAME/PACKAGE_NAME#readme",
+  "homepage": "https://github.com/[AUTHOR_NAME]/[REPO_NAME]#readme",
   "keywords": [
     "YOUR",
     "PACKAGE",
