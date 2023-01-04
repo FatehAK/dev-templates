@@ -1,6 +1,7 @@
 import { resolve } from 'path';
 import { defineConfig } from 'vite';
 import { visualizer } from 'rollup-plugin-visualizer';
+import pkg from './package.json';
 
 export default defineConfig(() => {
   return {
@@ -14,7 +15,8 @@ export default defineConfig(() => {
         fileName: 'index',
       },
       rollupOptions: {
-        external: [], // TODO: configure if you are using externals like node's fs or path modules
+        // TODO: configure deps to excluded from the bundle and external deps like node's fs or path modules
+        external: [...Object.keys(pkg.dependencies)],
         plugins: [
           visualizer({
             filename: 'reports/build-stats.html',
@@ -23,7 +25,7 @@ export default defineConfig(() => {
           }),
         ],
         output: {
-          globals: {}, // TODO: map externals to vars referred in code (only if using externals)
+          globals: {}, // TODO: map externals to vars referred in code
         },
       },
     },

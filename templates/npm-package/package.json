@@ -16,6 +16,7 @@
     "./package.json": "./package.json"
   },
   "description": "",
+  "keywords": [],
   "repository": {
     "type": "git",
     "url": "https://github.com/[AUTHOR_NAME]/[REPO_NAME]"
@@ -24,14 +25,10 @@
     "url": "https://github.com/[AUTHOR_NAME]/[REPO_NAME]/issues"
   },
   "homepage": "https://github.com/[AUTHOR_NAME]/[REPO_NAME]#readme",
-  "keywords": [
-    "YOUR",
-    "PACKAGE",
-    "KEYWORDS"
-  ],
   "scripts": {
     "start": "vite",
     "build": "vite build",
+    "build:watch": "vite build --watch",
     "release": "release-it",
     "tarball": "rimraf tar && pnpm pack --pack-destination ./tar",
     "analyze": "open ./reports/build-stats.html",
@@ -46,6 +43,7 @@
     "lint-staged": "lint-staged",
     "cz": "czg"
   },
+  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "concurrently": "^7.6.0",
