@@ -20,6 +20,7 @@ export default defineConfig(({ mode }) => {
   return {
     resolve: {
       alias: {
+        // TODO: update aliases as required
         pages: resolve(__dirname, 'src/pages'),
         components: resolve(__dirname, 'src/components'),
         theme: resolve(__dirname, 'src/theme'),

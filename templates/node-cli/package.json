@@ -38,7 +38,13 @@
     "lint-staged": "lint-staged",
     "cz": "czg"
   },
-  "dependencies": {},
+  "dependencies": {
+    "ansi-colors": "^4.1.3",
+    "execa": "^6.1.0",
+    "fs-extra": "^11.1.0",
+    "minimist": "^1.2.7",
+    "pathe": "^1.0.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.4.0",
     "concurrently": "^7.6.0",

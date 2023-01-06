@@ -18,6 +18,7 @@ export default defineConfig(({ mode }) => {
   return {
     resolve: {
       alias: {
+        // TODO: update aliases as required
         appConfig: resolve(__dirname, './appConfig'),
       },
     },
