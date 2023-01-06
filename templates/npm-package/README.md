@@ -4,13 +4,13 @@
 
 ### Configuration
 
-- Node v18.12.1, pnpm
-- Vite for bundling in `es` and `cjs` formats
+- Node v18.12.1, [pnpm](https://pnpm.io/)
+- [Vite](https://vitejs.dev/) for bundling in `es` and `cjs` formats
 - Prettier and Eslint with custom rules for formatting and linting
-- Husky, lint-staged and commitlint configs for clean linted commits
+- [Husky](https://typicode.github.io/husky/#/), [lint-staged](https://www.npmjs.com/package/lint-staged) and [commitlint](https://github.com/Zhengqbbb/cz-git) configs for clean linted commits
 - Custom config for automated publishing to NPM with [release-it](https://github.com/release-it/release-it) and creating GitHub releases
 - GitHub Actions to validate PR's and pushes to `main`
-- GitHub PR and Issue Templates
+- GitHub PR and Issue templates
 - [Renovate Bot](https://github.com/renovatebot/renovate) for automated dependency management
 
 ### Setting up

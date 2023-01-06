@@ -4,14 +4,14 @@
 
 ### Configuration
 
-- Node v18.12.1, pnpm
-- Vite for bundling in `es` format and CLI configuration
+- Node v18.12.1, [pnpm](https://pnpm.io/)
+- [Vite](https://vitejs.dev/) for bundling in `es` format and CLI configuration
 - Prettier and Eslint with custom rules for formatting and linting
-- Husky, lint-staged and commitlint configs for clean linted commits
+- [Husky](https://typicode.github.io/husky/#/), [lint-staged](https://www.npmjs.com/package/lint-staged) and [commitlint](https://github.com/Zhengqbbb/cz-git) configs for clean linted commits
 - Custom config for automated publishing to NPM with [release-it](https://github.com/release-it/release-it) and creating GitHub releases
 - Preinstalled recommended packages for developing cross-platform CLI tools
 - GitHub Actions to validate PR's and pushes to `main`
-- GitHub PR and Issue Templates
+- GitHub PR and Issue templates
 - [Renovate Bot](https://github.com/renovatebot/renovate) for automated dependency management
 
 ### Setting up
@@ -24,13 +24,14 @@
 - You can refer to the `scripts` field in `package.json` to see the list of tasks.
 
 ### Recommended Packages
-- [pathe](https://www.npmjs.com/package/pathe) - Cross-platform support for paths (replaces Node's `path`)
-- [fs-extra](https://www.npmjs.com/package/fs-extra) - Async file operations and error handling (replaces Node's `fs` and `fs/promises`)
+(* indicates preinstalled)
+- [pathe*](https://www.npmjs.com/package/pathe) - Cross-platform support for paths (replaces Node's `path`)
+- [fs-extra*](https://www.npmjs.com/package/fs-extra) - Async file operations and error handling (replaces Node's `fs` and `fs/promises`)
 - [inquirer](https://www.npmjs.com/package/inquirer) - Simplest way to query user input interactively
-- [execa](https://www.npmjs.com/package/execa) - Promise based shell command executor
-- [minimist](https://www.npmjs.com/package/minimist) - Parses CLI arguments and define aliases
+- [execa*](https://www.npmjs.com/package/execa) - Promise based shell command executor
+- [minimist*](https://www.npmjs.com/package/minimist) - Parses CLI arguments and define aliases
 - [minimatch](https://www.npmjs.com/package/minimatch) - Glob expression matcher
-- [ansi-colors](https://www.npmjs.com/package/ansi-colors) - Colorizing terminal output, much lighter than `chalk`
+- [ansi-colors*](https://www.npmjs.com/package/ansi-colors) - Colorizing terminal output, much lighter than `chalk`
 - [nanospinner](https://www.npmjs.com/package/nanospinner) - Lightweight spinner for async tasks
 
 ### Publishing

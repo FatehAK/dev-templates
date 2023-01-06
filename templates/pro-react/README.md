@@ -1,20 +1,20 @@
 <!--- TODO: update this readme file -->
 
-# pro-vanilla
+# pro-react
 
 ### Configuration
 
-- React v18, Node v18.12.1, pnpm
+- React v18, Node v18.12.1, [pnpm](https://pnpm.io/)
 - [Linaria](https://github.com/callstack/linaria) as CSS-in-JS solution
-- Vite for bundling with plugins for code splitting and optimizations
+- [Vite](https://vitejs.dev/) for bundling with plugins for code splitting and optimizations
 - Prettier, Stylelint, Eslint with custom rules for formatting and linting
-- Husky, lint-staged and commitlint configs for clean linted commits
+- [Husky](https://typicode.github.io/husky/#/), [lint-staged](https://www.npmjs.com/package/lint-staged) and [commitlint](https://github.com/Zhengqbbb/cz-git) configs for clean linted commits
 - PostCSS plugins and [modern-normalize](https://github.com/sindresorhus/modern-normalize) for CSS reset
 - PWA Configuration (optional) and SEO optimization
 - GitHub Actions for CI/CD
-- GitHub PR and Issue Templates
+- GitHub PR and Issue templates
 - [Renovate Bot](https://github.com/renovatebot/renovate) for automated dependency management
-- Cloudflare Pages for publishing
+- [Cloudflare Pages](https://pages.cloudflare.com/) for publishing
 
 ### Setting up
 
