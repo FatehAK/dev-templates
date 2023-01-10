@@ -7,8 +7,8 @@ const eslintCmd = `eslint --max-warnings=0 --format=pretty --cache --cache-strat
 module.exports = {
   // prevent linting styles.js in the first step since lint-staged runs in parallel
   // and we want to run stylelint for them and this avoid race conditions as well
-  '**/!(*styles).{js,jsx}': [eslintCmd, prettierCmd],
-  '**/*.styles.js': [eslintCmd, stylelintCmd, prettierCmd],
+  '**/!(*styles).js': [eslintCmd, prettierCmd],
+  '**/*.{styles.js,jsx}': [eslintCmd, stylelintCmd, prettierCmd],
   '**/*.html': [eslintCmd, stylelintCmd, prettierCmd],
   '**/*.css': [stylelintCmd, prettierCmd],
   '**/*.{md,json}': [prettierCmd],

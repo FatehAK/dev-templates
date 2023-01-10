@@ -23,7 +23,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: '**/*.styles.js',
+      files: '**/*.{styles.js,jsx}',
       // TODO: replace with '@linaria/postcss-linaria' once https://github.com/callstack/linaria/issues/1074 is fixed
       customSyntax: '@stylelint/postcss-css-in-js',
       // linaria specific rules and overrides
