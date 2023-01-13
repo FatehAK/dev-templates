@@ -32,7 +32,7 @@ export default defineConfig(({ mode }) => {
     plugins: [
       ViteReactPlugin(),
       ViteLinariaPlugin({
-        include: ['**/*.styles.js'],
+        include: ['**/*.styles.js', '**/*.jsx'],
         ...(!isProd && {
           sourceMap: true,
           // make classnames readable in dev server and build, else we just get a hash
