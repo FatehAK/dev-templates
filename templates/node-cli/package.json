@@ -49,7 +49,7 @@
     "execa": "^6.1.0",
     "fs-extra": "^11.1.0",
     "minimist": "^1.2.7",
-    "pathe": "^1.0.0"
+    "pathe": "^1.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
