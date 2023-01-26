@@ -68,11 +68,11 @@ export default defineConfig(({ mode }) => {
       VitePWA(PWA_CONFIG), // TODO: remove this plugin to opt out of PWA support
       ViteImageOptimizer(), // TODO: remove below plugin to opt out of build time asset optimization, remove 'svgo' and 'sharp' in devdeps
     ],
-    preview: { open: true },
+    preview: { open: true, port: 4000 },
     server: {
       open: true,
+      host: true,
       port: 3000,
-      hmr: { overlay: false },
     },
     build: {
       minify: isProd ? 'esbuild' : false,

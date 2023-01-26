@@ -124,6 +124,11 @@ export const META_TAGS = [
 
 // TODO: remove below config if not creating a PWA
 export const PWA_CONFIG = {
+  base: '/',
+  registerType: 'autoUpdate',
+  // TODO: add specified icon assets in the /public directory with correct sizes
+  // you can use this site: https://www.pwabuilder.com/imageGenerator
+  includeAssets: ['icons/favicon.ico', 'robots.txt', 'icons/*.png', 'icons/*.svg'],
   manifest: {
     name: APP_CONFIG.META.name,
     short_name: APP_CONFIG.META.name,
@@ -133,9 +138,6 @@ export const PWA_CONFIG = {
     start_url: '.',
     orientation: 'any',
     display: 'standalone',
-    // TODO: add specified icon assets in the /public directory with correct sizes
-    // you can use this site: https://www.pwabuilder.com/imageGenerator
-    includeAssets: ['icons/favicon.ico', 'robots.txt', 'icons/*.png'],
     icons: [
       {
         src: '/icons/icon-512-512.png',
@@ -176,10 +178,11 @@ export const PWA_CONFIG = {
       },
     ],
   },
-  registerType: 'prompt',
   workbox: {
+    sourcemap: false,
     cleanupOutdatedCaches: true,
     maximumFileSizeToCacheInBytes: 4194304,
+    globPatterns: ['**/*.{html,css,js,svg,png,ico,json,woff2,txt}'],
     // TODO: adjust runtime caching according to the required cdn assets urls
     runtimeCaching: [
       {

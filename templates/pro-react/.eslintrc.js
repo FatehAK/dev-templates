@@ -30,6 +30,7 @@ module.exports = {
     'react/function-component-definition': ['error', { namedComponents: 'arrow-function' }], // only allow arrow fn components
     'no-unused-vars': ['error', { argsIgnorePattern: '^_' }], // allow _ as ignored params
     'sort-imports': 'off', // turned off in favour of import/order rule
+    'import/no-unresolved': ['error', { ignore: ['^virtual:'] }],
     'import/order': [
       'error',
       {

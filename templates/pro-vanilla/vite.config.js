@@ -50,14 +50,13 @@ export default defineConfig(({ mode }) => {
           removeRedundantAttributes: true,
         }),
       VitePWA(PWA_CONFIG), // TODO: remove this plugin if you don't support PWA
-      ViteImageOptimizer(), // TODO: remove this plugin if your don't want to optimize image assets, also remove 'svgo' and 'sharp' from
-      // devdeps
+      ViteImageOptimizer(), // TODO: remove this plugin if your don't want to optimize image assets, also remove 'svgo' and 'sharp' from devdeps
     ],
-    preview: { open: true },
+    preview: { open: true, port: 4000 },
     server: {
       open: true,
+      host: true,
       port: 3000,
-      hmr: { overlay: false },
     },
     build: {
       minify: isProd ? 'esbuild' : false,
