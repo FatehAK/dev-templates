@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@commitlint/cli': ^17.4.4
   concurrently: ^7.6.0
-  czg: 1.4.1
+  czg: 1.5.0
   eslint: ^8.34.0
   eslint-config-prettier: ^8.6.0
   eslint-config-semistandard: ^17.0.0
@@ -23,7 +23,7 @@ specifiers:
 devDependencies:
   '@commitlint/cli': 17.4.4
   concurrently: 7.6.0
-  czg: 1.4.1
+  czg: 1.5.0
   eslint: 8.34.0
   eslint-config-prettier: 8.6.0_eslint@8.34.0
   eslint-config-semistandard: 17.0.0_jiwy35vfkn4p4mnmiypa7gwoom
@@ -1264,8 +1264,8 @@ packages:
       type-fest: 1.4.0
     dev: true
 
-  /czg/1.4.1:
-    resolution: {integrity: sha512-ZjK46yrHgRbypfKAzv8D/UIWiz3BgGfO0cSPAGpk4VO9FmJ3tqaLqelrNyiVjHqOyg1dOi8hoxBHdrdvwa1eaQ==}
+  /czg/1.5.0:
+    resolution: {integrity: sha512-LYyc3LkPl0q1eFK2QVBvVmFrTtylQ4jaIZIE2hI+jceFec6CyK7yqp1Iqi929bLMAecENdykaqmECV0XRc1oLA==}
     hasBin: true
     dev: true
 
