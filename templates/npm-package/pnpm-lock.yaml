@@ -16,7 +16,7 @@ specifiers:
   lint-staged: ^13.1.2
   prettier: ^2.8.4
   release-it: ^15.7.0
-  rimraf: ^4.2.0
+  rimraf: ^4.3.0
   rollup-plugin-visualizer: ^5.9.0
   vite: ^4.1.4
 
@@ -36,7 +36,7 @@ devDependencies:
   lint-staged: 13.1.2
   prettier: 2.8.4
   release-it: 15.7.0
-  rimraf: 4.2.0
+  rimraf: 4.3.0
   rollup-plugin-visualizer: 5.9.0
   vite: 4.1.4_@types+node@18.14.2
 
@@ -3868,8 +3868,8 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rimraf/4.2.0:
-    resolution: {integrity: sha512-tPt+gLORNVqRCk0NwuJ5SlMEcOGvt4CCU8sUPqgCFtCbnoNCTd9Q6vq7JlBbxQlACiH14OR28y7piA2Bak9Sxw==}
+  /rimraf/4.3.0:
+    resolution: {integrity: sha512-5qVDXPbByA1qSJEWMv1qAwKsoS22vVpsL2QyxCKBw4gf6XiFo1K3uRLY6uSOOBFDwnqAZtnbILqWKKlzh8bkGg==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
