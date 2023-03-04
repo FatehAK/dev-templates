@@ -54,7 +54,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",
     "concurrently": "^7.6.0",
-    "czg": "1.5.1",
+    "czg": "1.5.2",
     "eslint": "^8.35.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-config-semistandard": "^17.0.0",
