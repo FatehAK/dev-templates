@@ -7,7 +7,7 @@ propertyOrder.rules['order/properties-order'][1].emptyLineMinimumPropertyThresho
 module.exports = {
   defaultSeverity: 'warning', // treats all issues as 'warnings' so that we can use it in CI env
   reportDescriptionlessDisables: true,
-  extends: ['stylelint-config-standard', 'stylelint-config-html', 'stylelint-config-prettier'],
+  extends: ['stylelint-config-standard', 'stylelint-config-html'],
   plugins: ['stylelint-declaration-block-no-ignored-properties', 'stylelint-order'],
   rules: {
     ...propertyOrder.rules,
@@ -33,7 +33,6 @@ module.exports = {
         'string-no-newline': true,
         'value-no-vendor-prefix': true,
         'no-empty-source': null,
-        'no-extra-semicolons': null,
         // /* pcss-lin */ placeholder comments are added during parsing
         'comment-empty-line-before': [
           'always',
