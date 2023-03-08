@@ -13,7 +13,7 @@ specifiers:
   eslint-plugin-only-warn: ^1.1.0
   eslint-plugin-promise: ^6.1.1
   eslint-plugin-sonarjs: ^0.18.0
-  execa: ^6.1.0
+  execa: ^7.0.0
   fs-extra: ^11.1.0
   husky: ^8.0.3
   lint-staged: ^13.1.2
@@ -21,13 +21,13 @@ specifiers:
   pathe: ^1.1.0
   prettier: ^2.8.4
   release-it: ^15.7.0
-  rimraf: ^4.3.0
+  rimraf: ^4.3.1
   rollup-plugin-visualizer: ^5.9.0
   vite: ^4.1.4
 
 dependencies:
   ansi-colors: 4.1.3
-  execa: 6.1.0
+  execa: 7.0.0
   fs-extra: 11.1.0
   minimist: 1.2.8
   pathe: 1.1.0
@@ -48,7 +48,7 @@ devDependencies:
   lint-staged: 13.1.2
   prettier: 2.8.4
   release-it: 15.7.0
-  rimraf: 4.3.0
+  rimraf: 4.3.1
   rollup-plugin-visualizer: 5.9.0
   vite: 4.1.4_@types+node@18.14.6
 
@@ -1953,6 +1953,7 @@ packages:
       onetime: 6.0.0
       signal-exit: 3.0.7
       strip-final-newline: 3.0.0
+    dev: true
 
   /execa/7.0.0:
     resolution: {integrity: sha512-tQbH0pH/8LHTnwTrsKWideqi6rFB/QNUawEwrn+WHyz7PX1Tuz2u7wfTvbaNBdP5JD5LVWxNo8/A8CHNZ3bV6g==}
@@ -1967,7 +1968,6 @@ packages:
       onetime: 6.0.0
       signal-exit: 3.0.7
       strip-final-newline: 3.0.0
-    dev: true
 
   /external-editor/3.1.0:
     resolution: {integrity: sha512-hMQ4CX1p1izmuLYyZqLMO/qGNw10wSv9QDCPfzXfyFrOaCSSoRfqE1Kf1s5an66J5JZC62NewG+mK49jOCtQew==}
@@ -2428,11 +2428,11 @@ packages:
   /human-signals/3.0.1:
     resolution: {integrity: sha512-rQLskxnM/5OCldHo+wNXbpVgDn5A17CUoKX+7Sokwaknlq7CdSnphy0W39GU8dw59XiCXmFXDg4fRuckQRKewQ==}
     engines: {node: '>=12.20.0'}
+    dev: true
 
   /human-signals/4.3.0:
     resolution: {integrity: sha512-zyzVyMjpGBX2+6cDVZeFPCdtOtdsxOeseRhB9tkQ6xXmGUNrcnBzdEKPy3VPNYz+4gy1oukVOXcrJCunSyc6QQ==}
     engines: {node: '>=14.18.0'}
-    dev: true
 
   /husky/8.0.3:
     resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
@@ -3879,8 +3879,8 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rimraf/4.3.0:
-    resolution: {integrity: sha512-5qVDXPbByA1qSJEWMv1qAwKsoS22vVpsL2QyxCKBw4gf6XiFo1K3uRLY6uSOOBFDwnqAZtnbILqWKKlzh8bkGg==}
+  /rimraf/4.3.1:
+    resolution: {integrity: sha512-GfHJHBzFQra23IxDzIdBqhOWfbtdgS1/dCHrDy+yvhpoJY5TdwdT28oWaHWfRpKFDLd3GZnGTx6Mlt4+anbsxQ==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
