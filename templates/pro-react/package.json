@@ -76,7 +76,7 @@
     "lint-staged": "^13.2.0",
     "postcss-html": "^1.5.0",
     "postcss-nested": "^6.0.1",
-    "postcss-preset-env": "^8.1.0",
+    "postcss-preset-env": "^8.2.0",
     "postcss-syntax": "^0.36.2",
     "prettier": "^2.8.7",
     "rimraf": "^4.4.1",
@@ -95,7 +95,7 @@
     "vite-plugin-html-config": "^1.0.11",
     "vite-plugin-image-optimizer": "^1.1.2",
     "vite-plugin-minify": "^1.5.2",
-    "vite-plugin-pwa": "^0.14.6",
+    "vite-plugin-pwa": "^0.14.7",
     "workbox-window": "^6.5.4"
   },
   "pnpm": {
