@@ -4,9 +4,9 @@ specifiers:
   '@commitlint/cli': ^17.6.1
   '@html-eslint/eslint-plugin': ^0.18.0
   '@html-eslint/parser': ^0.18.0
-  '@linaria/core': ^4.2.8
-  '@linaria/react': ^4.3.6
-  '@linaria/vite': ^4.2.9
+  '@linaria/core': ^4.2.9
+  '@linaria/react': ^4.3.7
+  '@linaria/vite': ^4.2.10
   '@rollup/plugin-strip': ^3.0.2
   '@stylelint/postcss-css-in-js': ^0.38.0
   '@types/react': ^18.0.38
@@ -72,9 +72,9 @@ devDependencies:
   '@commitlint/cli': 17.6.1
   '@html-eslint/eslint-plugin': 0.18.0
   '@html-eslint/parser': 0.18.0
-  '@linaria/core': 4.2.8
-  '@linaria/react': 4.3.6_react@18.2.0
-  '@linaria/vite': 4.2.9_vite@4.3.1
+  '@linaria/core': 4.2.9
+  '@linaria/react': 4.3.7_react@18.2.0
+  '@linaria/vite': 4.2.10_vite@4.3.1
   '@rollup/plugin-strip': 3.0.2_rollup@2.79.1
   '@stylelint/postcss-css-in-js': 0.38.0_m45rkez2w6qlvs7qthd6x6nyjm
   '@types/react': 18.0.38
@@ -2146,8 +2146,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@linaria/babel-preset/4.4.3:
-    resolution: {integrity: sha512-6t8fO5DNjIERQ7sMmgUzyaBAJfAu6Foz1ecmmD9/Uq7J/nVedsQnN3X65S5/3/KM/kGXiReV91m+HhRUdWMCKg==}
+  /@linaria/babel-preset/4.4.4:
+    resolution: {integrity: sha512-bB0WqQjZSPKO2J5E93JFPg4/Goe/59F2+KaTSsMRpomJPrID0+2x23zdup5WWejAuGyDA3UszYy0wjnZbM1Uog==}
     engines: {node: ^12.16.0 || >=13.7.0}
     dependencies:
       '@babel/core': 7.21.4
@@ -2156,11 +2156,11 @@ packages:
       '@babel/template': 7.20.7
       '@babel/traverse': 7.21.4
       '@babel/types': 7.21.4
-      '@linaria/core': 4.2.8
+      '@linaria/core': 4.2.9
       '@linaria/logger': 4.0.0
-      '@linaria/shaker': 4.2.9
-      '@linaria/tags': 4.3.3
-      '@linaria/utils': 4.3.2
+      '@linaria/shaker': 4.2.10
+      '@linaria/tags': 4.3.4
+      '@linaria/utils': 4.3.3
       cosmiconfig: 8.1.3
       find-up: 5.0.0
       source-map: 0.7.4
@@ -2169,13 +2169,13 @@ packages:
       - supports-color
     dev: true
 
-  /@linaria/core/4.2.8:
-    resolution: {integrity: sha512-7gtzI40c+5/t8WTz2lfAaRjX6GxVpRb+AEWviDM15CV/iVzKgxYYdvi/1GpUWIGf3xVCl/IUzfl0q/O6BKsnpA==}
+  /@linaria/core/4.2.9:
+    resolution: {integrity: sha512-ELcu37VNVOT/PU0L6WDIN+aLzNFyJrqoBYT0CucGOCAmODbojUMCv8oJYRbWzA3N34w1t199dN4UFdfRWFG2rg==}
     engines: {node: ^12.16.0 || >=13.7.0}
     dependencies:
       '@linaria/logger': 4.0.0
-      '@linaria/tags': 4.3.3
-      '@linaria/utils': 4.3.2
+      '@linaria/tags': 4.3.4
+      '@linaria/utils': 4.3.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2190,16 +2190,16 @@ packages:
       - supports-color
     dev: true
 
-  /@linaria/react/4.3.6_react@18.2.0:
-    resolution: {integrity: sha512-Oa2BHpKCG9ZmGMUfR5A6pZcqc2iXrOm9jEGCIujW1DLMXduBBqCszGC5v3cp57qhIiWNHBN2mtNT9FhvYOTiTA==}
+  /@linaria/react/4.3.7_react@18.2.0:
+    resolution: {integrity: sha512-bU+fr0EKJFG5weyzJIIlKrwdCRN116A4ab+U9y9l0LW0zQ1FXlIK61X2nbd8f+v4MwswA1QKSX/tZD+NvnRKKQ==}
     engines: {node: ^12.16.0 || >=13.7.0}
     peerDependencies:
       react: '>=16'
     dependencies:
       '@emotion/is-prop-valid': 1.2.0
-      '@linaria/core': 4.2.8
-      '@linaria/tags': 4.3.3
-      '@linaria/utils': 4.3.2
+      '@linaria/core': 4.2.9
+      '@linaria/tags': 4.3.4
+      '@linaria/utils': 4.3.3
       react: 18.2.0
       react-html-attributes: 1.4.6
       ts-invariant: 0.10.3
@@ -2207,8 +2207,8 @@ packages:
       - supports-color
     dev: true
 
-  /@linaria/shaker/4.2.9:
-    resolution: {integrity: sha512-QGewHwSkde51aORKd9oLVHppeNp9kChwrwkLbXrY21ZM9XMXuljhcfKq/BZG2pNLCfzaTJQXlxvNV1HCcB6v1w==}
+  /@linaria/shaker/4.2.10:
+    resolution: {integrity: sha512-2VM0aOUZOeRBvne3fw36dIDu0yYzg0sLOT+kh1MvVmEen6uk4TphK3JoDVg/IWy8iAigv7w93AuJ5s8H5IiTlQ==}
     engines: {node: ^12.16.0 || >=13.7.0}
     dependencies:
       '@babel/core': 7.21.4
@@ -2218,26 +2218,26 @@ packages:
       '@babel/plugin-transform-template-literals': 7.18.9_@babel+core@7.21.4
       '@babel/preset-env': 7.21.4_@babel+core@7.21.4
       '@linaria/logger': 4.0.0
-      '@linaria/utils': 4.3.2
+      '@linaria/utils': 4.3.3
       babel-plugin-transform-react-remove-prop-types: 0.4.24
       ts-invariant: 0.10.3
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@linaria/tags/4.3.3:
-    resolution: {integrity: sha512-TkJw9ZnWcbBj9VWXTN8PiTh8cb5jfSy7uSbEXtV4COBHkkEKiDGCQHvOxPxGJGoj9IcfndS/LJcsFuH95soCfQ==}
+  /@linaria/tags/4.3.4:
+    resolution: {integrity: sha512-W8zaLKtC4YFCwkZ9DMu2enCiD/zGyYmFSTzEvJP7ZycdftMizoOrWNOyF9kITyjGdq+jZvAXJz0BZDT6axgIRg==}
     engines: {node: ^12.16.0 || >=13.7.0}
     dependencies:
       '@babel/generator': 7.21.4
       '@linaria/logger': 4.0.0
-      '@linaria/utils': 4.3.2
+      '@linaria/utils': 4.3.3
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@linaria/utils/4.3.2:
-    resolution: {integrity: sha512-EBw5jgO6Ql2V8SMrnAlrJXDu9+OlzO/PIgVFJQgTj/tT66Do0CRYD+lVmdLf/28Nf1Y4r/zReinKZUWt1vzLeA==}
+  /@linaria/utils/4.3.3:
+    resolution: {integrity: sha512-xSe/tod9A44aIMbtds9fWLNe2TT080lLdRSaoqX+UHsBWqClkrw5cXEt3lm8Vr4hZiXT2r/1AldjuHb9YbUlMg==}
     engines: {node: ^12.16.0 || >=13.7.0}
     dependencies:
       '@babel/core': 7.21.4
@@ -2252,15 +2252,15 @@ packages:
       - supports-color
     dev: true
 
-  /@linaria/vite/4.2.9_vite@4.3.1:
-    resolution: {integrity: sha512-kglajaU64g9ti/RA8mr6j4sC4kUjPFz/vLTDIVAj56pK96cA8l98g/sHMnXX/LghH6tMu7jgE0iEgBupPIFqQg==}
+  /@linaria/vite/4.2.10_vite@4.3.1:
+    resolution: {integrity: sha512-sbadCMfhtB2XiZREU1GWAorj/6MB3SjzgJZm6YTaqRpV26Q2Qci18GWVLKUJNNDp3b47DBc86Ezapu/EbY8UZA==}
     engines: {node: ^12.16.0 || >=13.7.0}
     peerDependencies:
       vite: '>=3.1.0 || >=4'
     dependencies:
-      '@linaria/babel-preset': 4.4.3
+      '@linaria/babel-preset': 4.4.4
       '@linaria/logger': 4.0.0
-      '@linaria/utils': 4.3.2
+      '@linaria/utils': 4.3.3
       '@rollup/pluginutils': 4.2.1
       vite: 4.3.1_ma5jpb7kqrzomci667w7gbwori
     transitivePeerDependencies:
