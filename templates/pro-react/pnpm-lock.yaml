@@ -11,7 +11,7 @@ specifiers:
   '@stylelint/postcss-css-in-js': ^0.38.0
   '@types/react': ^18.2.0
   '@types/react-dom': ^18.2.0
-  '@vitejs/plugin-legacy': ^4.0.2
+  '@vitejs/plugin-legacy': ^4.0.3
   '@vitejs/plugin-react': ^3.1.0
   browserslist-to-esbuild: ^1.2.0
   change-case: ^4.1.2
@@ -79,7 +79,7 @@ devDependencies:
   '@stylelint/postcss-css-in-js': 0.38.0_m45rkez2w6qlvs7qthd6x6nyjm
   '@types/react': 18.2.0
   '@types/react-dom': 18.2.0
-  '@vitejs/plugin-legacy': 4.0.2_terser@5.17.1+vite@4.3.2
+  '@vitejs/plugin-legacy': 4.0.3_terser@5.17.1+vite@4.3.2
   '@vitejs/plugin-react': 3.1.0_vite@4.3.2
   browserslist-to-esbuild: 1.2.0
   change-case: 4.1.2
@@ -2525,8 +2525,8 @@ packages:
     resolution: {integrity: sha512-NfQ4gyz38SL8sDNrSixxU2Os1a5xcdFxipAFxYEuLUlvU2uDwS4NUpsImcf1//SlWItCVMMLiylsxbmNMToV/g==}
     dev: true
 
-  /@vitejs/plugin-legacy/4.0.2_terser@5.17.1+vite@4.3.2:
-    resolution: {integrity: sha512-ivnt9sCkgwJTYTWLjuvY6H/HTuiQC1EgzAPkiAvi0yNAssiqOJjyjhG3hAK5LFUUorE0w9kGxn8K0f/74DlbxQ==}
+  /@vitejs/plugin-legacy/4.0.3_terser@5.17.1+vite@4.3.2:
+    resolution: {integrity: sha512-RqDQOSEmFSNL42vITkNp8HE8Ak1yjGgaav4B6BGcZ8/URK0wikzwSyhNRirHDkp+snflEEk7iPZXTXUYA9exbg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       terser: ^5.4.0
