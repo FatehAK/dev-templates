@@ -10,7 +10,7 @@ specifiers:
   '@rollup/plugin-strip': ^3.0.2
   '@stylelint/postcss-css-in-js': ^0.38.0
   '@types/react': ^18.2.0
-  '@types/react-dom': ^18.2.0
+  '@types/react-dom': ^18.2.1
   '@vitejs/plugin-legacy': ^4.0.3
   '@vitejs/plugin-react': ^3.1.0
   browserslist-to-esbuild: ^1.2.0
@@ -78,7 +78,7 @@ devDependencies:
   '@rollup/plugin-strip': 3.0.2_rollup@2.79.1
   '@stylelint/postcss-css-in-js': 0.38.0_m45rkez2w6qlvs7qthd6x6nyjm
   '@types/react': 18.2.0
-  '@types/react-dom': 18.2.0
+  '@types/react-dom': 18.2.1
   '@vitejs/plugin-legacy': 4.0.3_terser@5.17.1+vite@4.3.2
   '@vitejs/plugin-react': 3.1.0_vite@4.3.2
   browserslist-to-esbuild: 1.2.0
@@ -2497,8 +2497,8 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom/18.2.0:
-    resolution: {integrity: sha512-8yQrvS6sMpSwIovhPOwfyNf2Wz6v/B62LFSVYQ85+Rq3tLsBIG7rP5geMxaijTUxSkrO6RzN/IRuIAADYQsleA==}
+  /@types/react-dom/18.2.1:
+    resolution: {integrity: sha512-8QZEV9+Kwy7tXFmjJrp3XUKQSs9LTnE0KnoUb0YCguWBiNW0Yfb2iBMYZ08WPg35IR6P3Z0s00B15SwZnO26+w==}
     dependencies:
       '@types/react': 18.2.0
     dev: true
