@@ -15,7 +15,7 @@ specifiers:
   husky: ^8.0.3
   lint-staged: ^13.2.2
   prettier: ^2.8.8
-  release-it: ^15.10.2
+  release-it: ^15.10.3
   rimraf: ^4.4.1
   rollup-plugin-visualizer: ^5.9.0
   vite: ^4.3.4
@@ -35,7 +35,7 @@ devDependencies:
   husky: 8.0.3
   lint-staged: 13.2.2
   prettier: 2.8.8
-  release-it: 15.10.2
+  release-it: 15.10.3
   rimraf: 4.4.1
   rollup-plugin-visualizer: 5.9.0
   vite: 4.3.4_@types+node@18.16.3
@@ -3873,8 +3873,8 @@ packages:
       rc: 1.2.8
     dev: true
 
-  /release-it/15.10.2:
-    resolution: {integrity: sha512-fm1MtEG6IFxMMmOhUzpw9FTx8k9Ln5iiM+bikjrg3oZ5JLJO1uR1yxloPqc4A2gIXUq+bQp8/g4wipOwgDmEcw==}
+  /release-it/15.10.3:
+    resolution: {integrity: sha512-OSdHOg76gwkpLbSLBK09GZQj5XWXwBP+S6v//rSoQKkjqklaCLK04Gl5NkTwNrQOHHiihs4ToesDNh2+w55k3w==}
     engines: {node: '>=14.9'}
     hasBin: true
     dependencies:
