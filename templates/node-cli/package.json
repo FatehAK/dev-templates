@@ -52,7 +52,7 @@
     "pathe": "^1.1.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.6.1",
+    "@commitlint/cli": "^17.6.3",
     "concurrently": "^7.6.0",
     "czg": "1.6.1",
     "eslint": "^8.39.0",
