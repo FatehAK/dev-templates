@@ -59,7 +59,7 @@ specifiers:
   vite-plugin-image-optimizer: ^1.1.5
   vite-plugin-minify: ^1.5.2
   vite-plugin-pwa: ^0.15.1
-  workbox-window: ^6.5.4
+  workbox-window: ^6.6.0
 
 dependencies:
   modern-normalize: 1.1.0
@@ -121,8 +121,8 @@ devDependencies:
   vite-plugin-html-config: 1.0.11_vite@4.3.9
   vite-plugin-image-optimizer: 1.1.5_vite@4.3.9
   vite-plugin-minify: 1.5.2_vite@4.3.9
-  vite-plugin-pwa: 0.15.1_2zdsxulgwmlomtn5bq7ds42264
-  workbox-window: 6.5.4
+  vite-plugin-pwa: 0.15.1_cwoo7m5gm5hkuqbhiznvxf6wm4
+  workbox-window: 6.6.0
 
 packages:
 
@@ -7270,7 +7270,7 @@ packages:
       vite: 4.3.9_uloo3m473b5mnujvc6hrz2tmwa
     dev: true
 
-  /vite-plugin-pwa/0.15.1_2zdsxulgwmlomtn5bq7ds42264:
+  /vite-plugin-pwa/0.15.1_cwoo7m5gm5hkuqbhiznvxf6wm4:
     resolution: {integrity: sha512-lJVzEYda/Y9AfwxFzX0rV+QCQ2+WdBoEGtR1RBZKWxvrJ4NWEH1VZaHOMyzvRiYhWQsi7aFhewsp1CDvN/R1Og==}
     peerDependencies:
       vite: ^3.1.0 || ^4.0.0 || >=4
@@ -7282,7 +7282,7 @@ packages:
       pretty-bytes: 6.1.0
       vite: 4.3.9_uloo3m473b5mnujvc6hrz2tmwa
       workbox-build: 6.5.4
-      workbox-window: 6.5.4
+      workbox-window: 6.6.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -7453,6 +7453,10 @@ packages:
     resolution: {integrity: sha512-OXYb+m9wZm8GrORlV2vBbE5EC1FKu71GGp0H4rjmxmF4/HLbMCoTFws87M3dFwgpmg0v00K++PImpNQ6J5NQ6Q==}
     dev: true
 
+  /workbox-core/6.6.0:
+    resolution: {integrity: sha512-GDtFRF7Yg3DD859PMbPAYPeJyg5gJYXuBQAC+wyrWuuXgpfoOrIQIvFRZnQ7+czTIQjIr1DhLEGFzZanAT/3bQ==}
+    dev: true
+
   /workbox-expiration/6.5.4:
     resolution: {integrity: sha512-jUP5qPOpH1nXtjGGh1fRBa1wJL2QlIb5mGpct3NzepjGG2uFFBn4iiEBiI9GUmfAFR2ApuRhDydjcRmYXddiEQ==}
     dependencies:
@@ -7528,6 +7532,13 @@ packages:
     dependencies:
       '@types/trusted-types': 2.0.3
       workbox-core: 6.5.4
+    dev: true
+
+  /workbox-window/6.6.0:
+    resolution: {integrity: sha512-L4N9+vka17d16geaJXXRjENLFldvkWy7JyGxElRD0JvBxvFEd8LOhr+uXCcar/NzAmIBRv9EZ+M+Qr4mOoBITw==}
+    dependencies:
+      '@types/trusted-types': 2.0.3
+      workbox-core: 6.6.0
     dev: true
 
   /wrap-ansi/6.2.0:
