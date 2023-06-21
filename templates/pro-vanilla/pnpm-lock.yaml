@@ -5,7 +5,7 @@ specifiers:
   '@html-eslint/eslint-plugin': ^0.19.0
   '@html-eslint/parser': ^0.19.0
   '@rollup/plugin-strip': ^3.0.2
-  '@vitejs/plugin-legacy': ^4.0.4
+  '@vitejs/plugin-legacy': ^4.0.5
   browserslist-to-esbuild: ^1.2.0
   change-case: ^4.1.2
   concurrently: ^7.6.0
@@ -53,7 +53,7 @@ devDependencies:
   '@html-eslint/eslint-plugin': 0.19.0
   '@html-eslint/parser': 0.19.0
   '@rollup/plugin-strip': 3.0.2_rollup@2.79.1
-  '@vitejs/plugin-legacy': 4.0.4_terser@5.18.1+vite@4.3.9
+  '@vitejs/plugin-legacy': 4.0.5_terser@5.18.1+vite@4.3.9
   browserslist-to-esbuild: 1.2.0
   change-case: 4.1.2
   concurrently: 7.6.0
@@ -2331,8 +2331,8 @@ packages:
     resolution: {integrity: sha512-NfQ4gyz38SL8sDNrSixxU2Os1a5xcdFxipAFxYEuLUlvU2uDwS4NUpsImcf1//SlWItCVMMLiylsxbmNMToV/g==}
     dev: true
 
-  /@vitejs/plugin-legacy/4.0.4_terser@5.18.1+vite@4.3.9:
-    resolution: {integrity: sha512-UwVfkMfUEszbQ2vs3RDfiDxxvYnIjmtIrGxTnxRev5Sh8ZoDpieV2dwvTUB7zXKJpfRsOgimM6MxQ65VDHJeQw==}
+  /@vitejs/plugin-legacy/4.0.5_terser@5.18.1+vite@4.3.9:
+    resolution: {integrity: sha512-0N1CSAHjFTaxcKC9IcKDWMapmAfGn2mNdbROMf6UW0kypYLzDK8vAAbJIFW0jWvkv2aZfTgNs4KmQxoQDupUuQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       terser: ^5.4.0
