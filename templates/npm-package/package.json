@@ -45,7 +45,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@commitlint/cli": "^17.6.5",
+    "@commitlint/cli": "^17.6.6",
     "concurrently": "^7.6.0",
     "czg": "1.6.1",
     "eslint": "^8.43.0",
