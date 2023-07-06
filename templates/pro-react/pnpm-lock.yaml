@@ -54,7 +54,7 @@ specifiers:
   stylelint-order: ^6.0.3
   svgo: ^3.0.2
   terser: ^5.18.2
-  vite: ^4.4.0
+  vite: ^4.4.1
   vite-plugin-html-config: ^1.0.11
   vite-plugin-image-optimizer: ^1.1.6
   vite-plugin-minify: ^1.5.2
@@ -74,13 +74,13 @@ devDependencies:
   '@html-eslint/parser': 0.19.0
   '@linaria/core': 4.2.10
   '@linaria/react': 4.3.8_react@18.2.0
-  '@linaria/vite': 4.2.11_vite@4.4.0
+  '@linaria/vite': 4.2.11_vite@4.4.1
   '@rollup/plugin-strip': 3.0.2_rollup@2.79.1
   '@stylelint/postcss-css-in-js': 0.38.0_bexjxuuj3m3skabeb3g7xx5day
   '@types/react': 18.2.14
   '@types/react-dom': 18.2.6
-  '@vitejs/plugin-legacy': 4.1.0_terser@5.18.2+vite@4.4.0
-  '@vitejs/plugin-react': 3.1.0_vite@4.4.0
+  '@vitejs/plugin-legacy': 4.1.0_terser@5.18.2+vite@4.4.1
+  '@vitejs/plugin-react': 3.1.0_vite@4.4.1
   browserslist-to-esbuild: 1.2.0
   change-case: 4.1.2
   concurrently: 7.6.0
@@ -117,11 +117,11 @@ devDependencies:
   stylelint-order: 6.0.3_stylelint@15.10.1
   svgo: 3.0.2
   terser: 5.18.2
-  vite: 4.4.0_jcupjc4jh5zo4wkb5san4xgp64
-  vite-plugin-html-config: 1.0.11_vite@4.4.0
-  vite-plugin-image-optimizer: 1.1.6_vite@4.4.0
-  vite-plugin-minify: 1.5.2_vite@4.4.0
-  vite-plugin-pwa: 0.16.4_7sn3lkjfhq2thquzvc46chuaoi
+  vite: 4.4.1_jcupjc4jh5zo4wkb5san4xgp64
+  vite-plugin-html-config: 1.0.11_vite@4.4.1
+  vite-plugin-image-optimizer: 1.1.6_vite@4.4.1
+  vite-plugin-minify: 1.5.2_vite@4.4.1
+  vite-plugin-pwa: 0.16.4_6qz3hucl6xcom7zgrknrx6tf6q
   workbox-window: 7.0.0
 
 packages:
@@ -3402,7 +3402,7 @@ packages:
       - supports-color
     dev: true
 
-  /@linaria/vite/4.2.11_vite@4.4.0:
+  /@linaria/vite/4.2.11_vite@4.4.1:
     resolution: {integrity: sha512-+wfMZb3y/pDmrRb6SXTelPDA1T3o3CkjXYyBaN4t87Eple5d6qdVCXQPPoDJFdSyqtjtZ4Rdez/qIQrfPr++tQ==}
     engines: {node: ^12.16.0 || >=13.7.0}
     peerDependencies:
@@ -3412,7 +3412,7 @@ packages:
       '@linaria/logger': 4.0.0
       '@linaria/utils': 4.3.4
       '@rollup/pluginutils': 4.2.1
-      vite: 4.4.0_jcupjc4jh5zo4wkb5san4xgp64
+      vite: 4.4.1_jcupjc4jh5zo4wkb5san4xgp64
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3448,7 +3448,7 @@ packages:
     engines: {node: '>=14'}
     dev: false
 
-  /@rollup/plugin-babel/5.3.1_7j3zdoaddfjq5alrlemmlxmxci:
+  /@rollup/plugin-babel/5.3.1_ibbfwaxtw2e5b5yslbnz5lt7cu:
     resolution: {integrity: sha512-WFfdLWU/xVWKeRQnKmIAQULUI7Il0gZnBIH/ZFO069wYIfPu+8zrfp/KMW0atmELoRDq8FbiP3VCss9MhCut7Q==}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
@@ -3459,7 +3459,7 @@ packages:
       '@types/babel__core':
         optional: true
     dependencies:
-      '@babel/core': 7.22.5
+      '@babel/core': 7.22.7
       '@babel/helper-module-imports': 7.22.5
       '@rollup/pluginutils': 3.1.0_rollup@2.79.1
       rollup: 2.79.1
@@ -3651,7 +3651,7 @@ packages:
     resolution: {integrity: sha512-NfQ4gyz38SL8sDNrSixxU2Os1a5xcdFxipAFxYEuLUlvU2uDwS4NUpsImcf1//SlWItCVMMLiylsxbmNMToV/g==}
     dev: true
 
-  /@vitejs/plugin-legacy/4.1.0_terser@5.18.2+vite@4.4.0:
+  /@vitejs/plugin-legacy/4.1.0_terser@5.18.2+vite@4.4.1:
     resolution: {integrity: sha512-bLPHaKAKtPq40Cx2Hauz/VE39kStx7gUC21RM+0/OvBgiOlqrK3b1mIMUc4Cak1xLOrK99j174/7xczfu4OLHA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -3666,12 +3666,12 @@ packages:
       regenerator-runtime: 0.13.11
       systemjs: 6.14.1
       terser: 5.18.2
-      vite: 4.4.0_jcupjc4jh5zo4wkb5san4xgp64
+      vite: 4.4.1_jcupjc4jh5zo4wkb5san4xgp64
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@vitejs/plugin-react/3.1.0_vite@4.4.0:
+  /@vitejs/plugin-react/3.1.0_vite@4.4.1:
     resolution: {integrity: sha512-AfgcRL8ZBhAlc3BFdigClmTUMISmmzHn7sB2h9U1odvc5U/MjWXsAaz18b/WoppUTDBzxOJwo2VdClfUcItu9g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -3682,7 +3682,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.22.5_@babel+core@7.22.5
       magic-string: 0.27.0
       react-refresh: 0.14.0
-      vite: 4.4.0_jcupjc4jh5zo4wkb5san4xgp64
+      vite: 4.4.1_jcupjc4jh5zo4wkb5san4xgp64
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -8404,16 +8404,16 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-plugin-html-config/1.0.11_vite@4.4.0:
+  /vite-plugin-html-config/1.0.11_vite@4.4.1:
     resolution: {integrity: sha512-hUybhgI+/LQQ5q6xoMMsTvI4PBuQD/Wv6Z1vtDPVWjanS8weCIexXuLLYNGD/93f0v8W2hpNfXpmxgpZMahJ0g==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: '>=2.0.0 || >=4'
     dependencies:
-      vite: 4.4.0_jcupjc4jh5zo4wkb5san4xgp64
+      vite: 4.4.1_jcupjc4jh5zo4wkb5san4xgp64
     dev: true
 
-  /vite-plugin-image-optimizer/1.1.6_vite@4.4.0:
+  /vite-plugin-image-optimizer/1.1.6_vite@4.4.1:
     resolution: {integrity: sha512-WxPbME2COPBHXJLQSAy2i9kV2c4gAyNWigH+OMF+dvGACcuVjsJLJKiN3M870jc9op+mEKVSuno7rcr2F7le4Q==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -8421,19 +8421,19 @@ packages:
     dependencies:
       ansi-colors: 4.1.3
       pathe: 1.1.1
-      vite: 4.4.0_jcupjc4jh5zo4wkb5san4xgp64
+      vite: 4.4.1_jcupjc4jh5zo4wkb5san4xgp64
     dev: true
 
-  /vite-plugin-minify/1.5.2_vite@4.4.0:
+  /vite-plugin-minify/1.5.2_vite@4.4.1:
     resolution: {integrity: sha512-clf3THHlet1jD35y8+mbw/xgACbdUQ1Eyc9zZFiqaxVOZLSC3UbrkOYOG+Nf4cleRjWgb8czbXrnQiWZICVh3Q==}
     peerDependencies:
       vite: '*'
     dependencies:
       html-minifier-terser: 6.1.0
-      vite: 4.4.0_jcupjc4jh5zo4wkb5san4xgp64
+      vite: 4.4.1_jcupjc4jh5zo4wkb5san4xgp64
     dev: true
 
-  /vite-plugin-pwa/0.16.4_7sn3lkjfhq2thquzvc46chuaoi:
+  /vite-plugin-pwa/0.16.4_6qz3hucl6xcom7zgrknrx6tf6q:
     resolution: {integrity: sha512-lmwHFIs9zI2H9bXJld/zVTbCqCQHZ9WrpyDMqosICDV0FVnCJwniX1NMDB79HGTIZzOQkY4gSZaVTJTw6maz/Q==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -8444,15 +8444,15 @@ packages:
       debug: 4.3.4
       fast-glob: 3.3.0
       pretty-bytes: 6.1.0
-      vite: 4.4.0_jcupjc4jh5zo4wkb5san4xgp64
+      vite: 4.4.1_jcupjc4jh5zo4wkb5san4xgp64
       workbox-build: 7.0.0
       workbox-window: 7.0.0
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/4.4.0_jcupjc4jh5zo4wkb5san4xgp64:
-    resolution: {integrity: sha512-Wf+DCEjuM8aGavEYiF77hnbxEZ+0+/jC9nABR46sh5Xi+GYeSvkeEFRiVuI3x+tPjxgZeS91h1jTAQTPFgePpA==}
+  /vite/4.4.1_jcupjc4jh5zo4wkb5san4xgp64:
+    resolution: {integrity: sha512-8mmwPlsy7t+ZcTme7vdbVGuZ3Tri+lrLXr6hsF5UHdyYyARPPPMtM16QlqC9TZuCd5j3NmWs1rwka3cVSRHZTw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -8555,10 +8555,10 @@ packages:
     engines: {node: '>=16.0.0'}
     dependencies:
       '@apideck/better-ajv-errors': 0.3.6_ajv@8.12.0
-      '@babel/core': 7.22.5
-      '@babel/preset-env': 7.22.5_@babel+core@7.22.5
+      '@babel/core': 7.22.7
+      '@babel/preset-env': 7.22.7_@babel+core@7.22.7
       '@babel/runtime': 7.22.5
-      '@rollup/plugin-babel': 5.3.1_7j3zdoaddfjq5alrlemmlxmxci
+      '@rollup/plugin-babel': 5.3.1_ibbfwaxtw2e5b5yslbnz5lt7cu
       '@rollup/plugin-node-resolve': 11.2.1_rollup@2.79.1
       '@rollup/plugin-replace': 2.4.2_rollup@2.79.1
       '@surma/rollup-plugin-off-main-thread': 2.2.3
