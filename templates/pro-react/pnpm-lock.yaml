@@ -44,7 +44,7 @@ specifiers:
   react-router-dom: ^6.14.2
   rimraf: ^4.4.1
   rollup-plugin-visualizer: ^5.9.2
-  sharp: ^0.32.3
+  sharp: ^0.32.4
   stylelint: ^15.10.2
   stylelint-config-clean-order: ^5.0.1
   stylelint-config-html: ^1.1.0
@@ -53,7 +53,7 @@ specifiers:
   stylelint-formatter-pretty: ^3.2.0
   stylelint-order: ^6.0.3
   svgo: ^3.0.2
-  terser: ^5.19.1
+  terser: ^5.19.2
   vite: ^4.4.6
   vite-plugin-html-config: ^1.0.11
   vite-plugin-image-optimizer: ^1.1.6
@@ -79,7 +79,7 @@ devDependencies:
   '@stylelint/postcss-css-in-js': 0.38.0_62n7cnclcoj24423hvg6um5qgi
   '@types/react': 18.2.15
   '@types/react-dom': 18.2.7
-  '@vitejs/plugin-legacy': 4.1.1_terser@5.19.1+vite@4.4.6
+  '@vitejs/plugin-legacy': 4.1.1_terser@5.19.2+vite@4.4.6
   '@vitejs/plugin-react': 3.1.0_vite@4.4.6
   browserslist-to-esbuild: 1.2.0
   change-case: 4.1.2
@@ -107,7 +107,7 @@ devDependencies:
   prettier: 2.8.8
   rimraf: 4.4.1
   rollup-plugin-visualizer: 5.9.2_rollup@2.79.1
-  sharp: 0.32.3
+  sharp: 0.32.4
   stylelint: 15.10.2
   stylelint-config-clean-order: 5.0.1_stylelint@15.10.2
   stylelint-config-html: 1.1.0_f4bksk7wdmmh6mf4m77wivwcdq
@@ -116,8 +116,8 @@ devDependencies:
   stylelint-formatter-pretty: 3.2.0
   stylelint-order: 6.0.3_stylelint@15.10.2
   svgo: 3.0.2
-  terser: 5.19.1
-  vite: 4.4.6_77sr7mrdyydzumx4edf4e2halq
+  terser: 5.19.2
+  vite: 4.4.6_rf2zukkzplugm42gict5z7f3tu
   vite-plugin-html-config: 1.0.11_vite@4.4.6
   vite-plugin-image-optimizer: 1.1.6_vite@4.4.6
   vite-plugin-minify: 1.5.2_vite@4.4.6
@@ -2329,7 +2329,7 @@ packages:
       '@linaria/logger': 4.5.0
       '@linaria/utils': 4.5.1
       '@rollup/pluginutils': 4.2.1
-      vite: 4.4.6_77sr7mrdyydzumx4edf4e2halq
+      vite: 4.4.6_rf2zukkzplugm42gict5z7f3tu
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2568,7 +2568,7 @@ packages:
     resolution: {integrity: sha512-NfQ4gyz38SL8sDNrSixxU2Os1a5xcdFxipAFxYEuLUlvU2uDwS4NUpsImcf1//SlWItCVMMLiylsxbmNMToV/g==}
     dev: true
 
-  /@vitejs/plugin-legacy/4.1.1_terser@5.19.1+vite@4.4.6:
+  /@vitejs/plugin-legacy/4.1.1_terser@5.19.2+vite@4.4.6:
     resolution: {integrity: sha512-um3gbVouD2Q/g19C0qpDfHwveXDCAHzs8OC3e9g6aXpKoD1H14himgs7wkMnhAynBJy7QqUoZNAXDuqN8zLR2g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -2582,8 +2582,8 @@ packages:
       magic-string: 0.30.1
       regenerator-runtime: 0.13.11
       systemjs: 6.14.1
-      terser: 5.19.1
-      vite: 4.4.6_77sr7mrdyydzumx4edf4e2halq
+      terser: 5.19.2
+      vite: 4.4.6_rf2zukkzplugm42gict5z7f3tu
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2599,7 +2599,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.22.5_@babel+core@7.22.9
       magic-string: 0.27.0
       react-refresh: 0.14.0
-      vite: 4.4.6_77sr7mrdyydzumx4edf4e2halq
+      vite: 4.4.6_rf2zukkzplugm42gict5z7f3tu
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3496,8 +3496,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /detect-libc/2.0.1:
-    resolution: {integrity: sha512-463v3ZeIrcWtdgIg6vI6XUncguvr2TnGl4SzDXinkt9mSLpBJKXT3mW6xT3VQdDN11+WVs29pgvivTc4Lp8v+w==}
+  /detect-libc/2.0.2:
+    resolution: {integrity: sha512-UX6sGumvvqSaXgdKGUsgZWqcUyIXZ/vZTrlRT/iobiKhGL0zL4d3osHj3uqllWJK+i+sixDS/3COVEOFbupFyw==}
     engines: {node: '>=8'}
     dev: true
 
@@ -4485,7 +4485,7 @@ packages:
       he: 1.2.0
       param-case: 3.0.4
       relateurl: 0.2.7
-      terser: 5.19.1
+      terser: 5.19.2
     dev: true
 
   /html-tags/3.3.1:
@@ -6061,7 +6061,7 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
-      detect-libc: 2.0.1
+      detect-libc: 2.0.2
       expand-template: 2.0.3
       github-from-package: 0.0.0
       minimist: 1.2.8
@@ -6411,7 +6411,7 @@ packages:
       jest-worker: 26.6.2
       rollup: 2.79.1
       serialize-javascript: 4.0.0
-      terser: 5.19.1
+      terser: 5.19.2
     dev: true
 
   /rollup-plugin-visualizer/5.9.2_rollup@2.79.1:
@@ -6527,13 +6527,13 @@ packages:
       randombytes: 2.1.0
     dev: true
 
-  /sharp/0.32.3:
-    resolution: {integrity: sha512-i1gFPiNqyqxC4ouVvCKj5G8WfPIMeeSxpKcMrjic6NY4e8zktW7bIdqHPc3FCG+pNKU/XCEabKA57hhvZi8UmQ==}
+  /sharp/0.32.4:
+    resolution: {integrity: sha512-exUnZewqVZC6UXqXuQ8fyJJv0M968feBi04jb9GcUHrWtkRoAKnbJt8IfwT4NJs7FskArbJ14JAFGVuooszoGg==}
     engines: {node: '>=14.15.0'}
     requiresBuild: true
     dependencies:
       color: 4.2.3
-      detect-libc: 2.0.1
+      detect-libc: 2.0.2
       node-addon-api: 6.1.0
       prebuild-install: 7.1.1
       semver: 7.5.4
@@ -7088,8 +7088,8 @@ packages:
       unique-string: 2.0.0
     dev: true
 
-  /terser/5.19.1:
-    resolution: {integrity: sha512-27hxBUVdV6GoNg1pKQ7Z5cbR6V9txPVyBA+FQw3BaZ1Wuzvztce5p156DaP0NVZNrMZZ+6iG9Syf7WgMNKDg2Q==}
+  /terser/5.19.2:
+    resolution: {integrity: sha512-qC5+dmecKJA4cpYxRa5aVkKehYsQKc+AHeKl0Oe62aYjBL8ZA33tTljktDHJSaxxMnbI5ZYw+o/S2DxxLu8OfA==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -7393,7 +7393,7 @@ packages:
     peerDependencies:
       vite: '>=2.0.0 || >=4'
     dependencies:
-      vite: 4.4.6_77sr7mrdyydzumx4edf4e2halq
+      vite: 4.4.6_rf2zukkzplugm42gict5z7f3tu
     dev: true
 
   /vite-plugin-image-optimizer/1.1.6_vite@4.4.6:
@@ -7404,7 +7404,7 @@ packages:
     dependencies:
       ansi-colors: 4.1.3
       pathe: 1.1.1
-      vite: 4.4.6_77sr7mrdyydzumx4edf4e2halq
+      vite: 4.4.6_rf2zukkzplugm42gict5z7f3tu
     dev: true
 
   /vite-plugin-minify/1.5.2_vite@4.4.6:
@@ -7413,7 +7413,7 @@ packages:
       vite: '*'
     dependencies:
       html-minifier-terser: 6.1.0
-      vite: 4.4.6_77sr7mrdyydzumx4edf4e2halq
+      vite: 4.4.6_rf2zukkzplugm42gict5z7f3tu
     dev: true
 
   /vite-plugin-pwa/0.16.4_t7dof6okkyqyl4lu32kfoodioq:
@@ -7427,14 +7427,14 @@ packages:
       debug: 4.3.4
       fast-glob: 3.3.0
       pretty-bytes: 6.1.1
-      vite: 4.4.6_77sr7mrdyydzumx4edf4e2halq
+      vite: 4.4.6_rf2zukkzplugm42gict5z7f3tu
       workbox-build: 7.0.0
       workbox-window: 7.0.0
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/4.4.6_77sr7mrdyydzumx4edf4e2halq:
+  /vite/4.4.6_rf2zukkzplugm42gict5z7f3tu:
     resolution: {integrity: sha512-EY6Mm8vJ++S3D4tNAckaZfw3JwG3wa794Vt70M6cNJ6NxT87yhq7EC8Rcap3ahyHdo8AhCmV9PTk+vG1HiYn1A==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -7466,7 +7466,7 @@ packages:
       esbuild: 0.18.13
       postcss: 8.4.26
       rollup: 3.26.2
-      terser: 5.19.1
+      terser: 5.19.2
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
