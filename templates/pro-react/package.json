@@ -43,7 +43,7 @@
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.6.7",
+    "@commitlint/cli": "^17.7.0",
     "@html-eslint/eslint-plugin": "^0.19.1",
     "@html-eslint/parser": "^0.19.1",
     "@linaria/core": "^4.5.4",
