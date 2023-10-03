@@ -18,7 +18,7 @@ specifiers:
   release-it: ^15.11.0
   rimraf: ^4.4.1
   rollup-plugin-visualizer: ^5.9.2
-  vite: ^4.4.9
+  vite: ^4.4.10
 
 devDependencies:
   '@commitlint/cli': 17.7.2
@@ -38,7 +38,7 @@ devDependencies:
   release-it: 15.11.0
   rimraf: 4.4.1
   rollup-plugin-visualizer: 5.9.2
-  vite: 4.4.9_@types+node@20.5.1
+  vite: 4.4.10_@types+node@20.5.1
 
 packages:
 
@@ -4690,8 +4690,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite/4.4.9_@types+node@20.5.1:
-    resolution: {integrity: sha512-2mbUn2LlUmNASWwSCNSJ/EG2HuSRTnVNaydp6vMCm5VIqJsjMfbIWtbH2kDuwUVW5mMUKKZvGPX/rqeqVvv1XA==}
+  /vite/4.4.10_@types+node@20.5.1:
+    resolution: {integrity: sha512-TzIjiqx9BEXF8yzYdF2NTf1kFFbjMjUSV0LFZ3HyHoI3SGSPLnnFUKiIQtL3gl2AjHvMrprOvQ3amzaHgQlAxw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
