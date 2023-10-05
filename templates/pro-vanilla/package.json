@@ -42,7 +42,7 @@
     "@commitlint/cli": "^17.7.2",
     "@html-eslint/eslint-plugin": "^0.19.1",
     "@html-eslint/parser": "^0.19.1",
-    "@rollup/plugin-strip": "^3.0.2",
+    "@rollup/plugin-strip": "^3.0.3",
     "@vitejs/plugin-legacy": "^4.1.1",
     "browserslist-to-esbuild": "^1.2.0",
     "change-case": "^4.1.2",

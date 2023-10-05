@@ -7,7 +7,7 @@ specifiers:
   '@linaria/core': ^4.5.4
   '@linaria/react': ^4.5.4
   '@linaria/vite': ^4.5.4
-  '@rollup/plugin-strip': ^3.0.2
+  '@rollup/plugin-strip': ^3.0.3
   '@stylelint/postcss-css-in-js': ^0.38.0
   '@types/react': ^18.2.25
   '@types/react-dom': ^18.2.10
@@ -75,7 +75,7 @@ devDependencies:
   '@linaria/core': 4.5.4
   '@linaria/react': 4.5.4_react@18.2.0
   '@linaria/vite': 4.5.4_vrjn4omj5eanksabme5dpzqgqq
-  '@rollup/plugin-strip': 3.0.2_rollup@2.79.1
+  '@rollup/plugin-strip': 3.0.3_rollup@2.79.1
   '@stylelint/postcss-css-in-js': 0.38.0_qj4chqkqhgdv2fpssotvqc5mna
   '@types/react': 18.2.25
   '@types/react-dom': 18.2.10
@@ -2384,11 +2384,11 @@ packages:
       rollup: 2.79.1
     dev: true
 
-  /@rollup/plugin-strip/3.0.2_rollup@2.79.1:
-    resolution: {integrity: sha512-L8Whin/DB5XsLE586+xcud6yX/pMVUlfalA999uAsC+dtwmBHSiUwtAxMl3eVvykX3N5BhdeAjStqDlzMmfUXw==}
+  /@rollup/plugin-strip/3.0.3_rollup@2.79.1:
+    resolution: {integrity: sha512-7pk6dVG4gor4x+n7FtLeMLuYMFgJvLiRqXJHwHEkAXsORaVgCmIbhOyW+In0gMov4DYwMcXdoll/5bCKeCngHA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
-      rollup: ^1.20.0||^2.0.0||^3.0.0
+      rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
     peerDependenciesMeta:
       rollup:
         optional: true
