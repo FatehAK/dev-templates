@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@types/react': ^18.2.32
+  '@types/react': ^18.2.33
   '@types/react-dom': ^18.2.14
   '@vitejs/plugin-react': ^3.1.0
   modern-normalize: ^1.1.0
@@ -17,7 +17,7 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
-  '@types/react': 18.2.32
+  '@types/react': 18.2.33
   '@types/react-dom': 18.2.14
   '@vitejs/plugin-react': 3.1.0_vite@4.5.0
   vite: 4.5.0
@@ -483,11 +483,11 @@ packages:
   /@types/react-dom/18.2.14:
     resolution: {integrity: sha512-V835xgdSVmyQmI1KLV2BEIUgqEuinxp9O4G6g3FqO/SqLac049E53aysv0oEFD2kHfejeKU+ZqL2bcFWj9gLAQ==}
     dependencies:
-      '@types/react': 18.2.32
+      '@types/react': 18.2.33
     dev: true
 
-  /@types/react/18.2.32:
-    resolution: {integrity: sha512-F0FVIZQ1x5Gxy/VYJb7XcWvCcHR28Sjwt1dXLspdIatfPq1MVACfnBDwKe6ANLxQ64riIJooXClpUR6oxTiepg==}
+  /@types/react/18.2.33:
+    resolution: {integrity: sha512-v+I7S+hu3PIBoVkKGpSYYpiBT1ijqEzWpzQD62/jm4K74hPpSP7FF9BnKG6+fg2+62weJYkkBWDJlZt5JO/9hg==}
     dependencies:
       '@types/prop-types': 15.7.9
       '@types/scheduler': 0.16.5
