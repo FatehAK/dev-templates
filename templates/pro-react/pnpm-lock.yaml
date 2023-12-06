@@ -16,7 +16,7 @@ specifiers:
   browserslist-to-esbuild: ^1.2.0
   change-case: ^4.1.2
   concurrently: ^7.6.0
-  czg: 1.7.1
+  czg: 1.8.0
   eslint: ^8.55.0
   eslint-config-airbnb: ^19.0.4
   eslint-config-prettier: ^8.10.0
@@ -84,7 +84,7 @@ devDependencies:
   browserslist-to-esbuild: 1.2.0
   change-case: 4.1.2
   concurrently: 7.6.0
-  czg: 1.7.1
+  czg: 1.8.0
   eslint: 8.55.0
   eslint-config-airbnb: 19.0.4_janxutlsgu7fdgbdzdfkvavqjq
   eslint-config-prettier: 8.10.0_eslint@8.55.0
@@ -3564,8 +3564,8 @@ packages:
     resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
     dev: true
 
-  /czg/1.7.1:
-    resolution: {integrity: sha512-KP93cTbZxgWYDKJzZpjnLe0sy/2FwyegatnrOaqsath04WinvsdhZl5QCGkxTKBY2DavpKloIBW/WGZzCKmrlA==}
+  /czg/1.8.0:
+    resolution: {integrity: sha512-vLX3AIUaE30C/qkeuL+g1fcdjZ72vBdON12E4V4vmuTKKe7OMoQ2MxBYbWhl5OP28+ggCrajxGBk6bdjIn5LgQ==}
     engines: {node: '>=v12.20.0'}
     hasBin: true
     dev: true
