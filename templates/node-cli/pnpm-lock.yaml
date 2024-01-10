@@ -18,7 +18,7 @@ specifiers:
   husky: ^8.0.3
   lint-staged: ^13.3.0
   minimist: ^1.2.8
-  pathe: ^1.1.1
+  pathe: ^1.1.2
   prettier: ^2.8.8
   release-it: ^15.11.0
   rimraf: ^4.4.1
@@ -30,7 +30,7 @@ dependencies:
   execa: 7.2.0
   fs-extra: 11.2.0
   minimist: 1.2.8
-  pathe: 1.1.1
+  pathe: 1.1.2
 
 devDependencies:
   '@commitlint/cli': 17.8.1
@@ -3706,8 +3706,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /pathe/1.1.1:
-    resolution: {integrity: sha512-d+RQGp0MAYTIaDBIMmOfMwz3E+LOZnxx1HZd5R18mmCZY0QBlK0LDZfPc8FW8Ed2DlvsuE6PRjroDY+wg4+j/Q==}
+  /pathe/1.1.2:
+    resolution: {integrity: sha512-whLdWMYL2TwI08hn8/ZqAbrVemu0LNaNNJZX73O6qaIdCTfXutsLhMkjdENX0qhsQ9uIimo4/aQOmXkoon2nDQ==}
     dev: false
 
   /picocolors/1.0.0:
