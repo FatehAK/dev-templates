@@ -29,7 +29,7 @@ specifiers:
   eslint-plugin-promise: ^6.1.1
   eslint-plugin-react: ^7.33.2
   eslint-plugin-react-hooks: ^4.6.0
-  eslint-plugin-sonarjs: ^0.23.0
+  eslint-plugin-sonarjs: ^0.24.0
   husky: ^8.0.3
   lint-staged: ^13.3.0
   modern-normalize: ^1.1.0
@@ -97,7 +97,7 @@ devDependencies:
   eslint-plugin-promise: 6.1.1_eslint@8.56.0
   eslint-plugin-react: 7.33.2_eslint@8.56.0
   eslint-plugin-react-hooks: 4.6.0_eslint@8.56.0
-  eslint-plugin-sonarjs: 0.23.0_eslint@8.56.0
+  eslint-plugin-sonarjs: 0.24.0_eslint@8.56.0
   husky: 8.0.3
   lint-staged: 13.3.0
   postcss-html: 1.6.0
@@ -4159,9 +4159,9 @@ packages:
       string.prototype.matchall: 4.0.10
     dev: true
 
-  /eslint-plugin-sonarjs/0.23.0_eslint@8.56.0:
-    resolution: {integrity: sha512-z44T3PBf9W7qQ/aR+NmofOTyg6HLhSEZOPD4zhStqBpLoMp8GYhFksuUBnCxbnf1nfISpKBVkQhiBLFI/F4Wlg==}
-    engines: {node: '>=14'}
+  /eslint-plugin-sonarjs/0.24.0_eslint@8.56.0:
+    resolution: {integrity: sha512-87zp50mbbNrSTuoEOebdRQBPa0mdejA5UEjyuScyIw8hEpEjfWP89Qhkq5xVZfVyVSRQKZc9alVm7yRKQvvUmg==}
+    engines: {node: '>=16'}
     peerDependencies:
       eslint: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
