@@ -26,7 +26,7 @@ specifiers:
   eslint-plugin-import: ^2.29.1
   eslint-plugin-jsx-a11y: ^6.9.0
   eslint-plugin-only-warn: ^1.1.0
-  eslint-plugin-promise: ^6.5.1
+  eslint-plugin-promise: ^6.6.0
   eslint-plugin-react: ^7.35.0
   eslint-plugin-react-hooks: ^4.6.2
   eslint-plugin-sonarjs: ^0.25.1
@@ -94,7 +94,7 @@ devDependencies:
   eslint-plugin-import: 2.29.1_eslint@8.57.0
   eslint-plugin-jsx-a11y: 6.9.0_eslint@8.57.0
   eslint-plugin-only-warn: 1.1.0
-  eslint-plugin-promise: 6.5.1_eslint@8.57.0
+  eslint-plugin-promise: 6.6.0_eslint@8.57.0
   eslint-plugin-react: 7.35.0_eslint@8.57.0
   eslint-plugin-react-hooks: 4.6.2_eslint@8.57.0
   eslint-plugin-sonarjs: 0.25.1_eslint@8.57.0
@@ -4290,8 +4290,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /eslint-plugin-promise/6.5.1_eslint@8.57.0:
-    resolution: {integrity: sha512-KEYBjj9nCynXAquwKrYEnIJ1zK+e+O5jqwn/9Aln/FhdOXm6WwsmCVatDM6OAxkEzbigsyD79Fi3DUWWqulTEA==}
+  /eslint-plugin-promise/6.6.0_eslint@8.57.0:
+    resolution: {integrity: sha512-57Zzfw8G6+Gq7axm2Pdo3gW/Rx3h9Yywgn61uE/3elTCOePEHVrn2i5CdfBwA1BLK0Q0WqctICIUSqXZW/VprQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
