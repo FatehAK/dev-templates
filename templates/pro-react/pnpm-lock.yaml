@@ -24,7 +24,7 @@ specifiers:
   eslint-import-resolver-alias: ^1.1.2
   eslint-plugin-html: ^7.1.0
   eslint-plugin-import: ^2.30.0
-  eslint-plugin-jsx-a11y: ^6.9.0
+  eslint-plugin-jsx-a11y: ^6.10.0
   eslint-plugin-only-warn: ^1.1.0
   eslint-plugin-promise: ^6.6.0
   eslint-plugin-react: ^7.35.2
@@ -86,13 +86,13 @@ devDependencies:
   concurrently: 7.6.0
   czg: 1.9.4
   eslint: 8.57.0
-  eslint-config-airbnb: 19.0.4_z6jeokeyd3twb4wr4h6ecfk6uu
+  eslint-config-airbnb: 19.0.4_42qqrwownlajghmx5vwpglgrya
   eslint-config-prettier: 8.10.0_eslint@8.57.0
   eslint-formatter-pretty: 4.1.0
   eslint-import-resolver-alias: 1.1.2_q4t5k4wxbbozlpzupiyrny34yy
   eslint-plugin-html: 7.1.0
   eslint-plugin-import: 2.30.0_eslint@8.57.0
-  eslint-plugin-jsx-a11y: 6.9.0_eslint@8.57.0
+  eslint-plugin-jsx-a11y: 6.10.0_eslint@8.57.0
   eslint-plugin-only-warn: 1.1.0
   eslint-plugin-promise: 6.6.0_eslint@8.57.0
   eslint-plugin-react: 7.35.2_eslint@8.57.0
@@ -3127,10 +3127,9 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /axobject-query/3.1.1:
-    resolution: {integrity: sha512-goKlv8DZrK9hUh975fnHzhNIO4jUnFCfv/dszV5VwUGDFjI6vQ2VwoyjYjYNEbBE8AH87TduWP5uyDR1D+Iteg==}
-    dependencies:
-      deep-equal: 2.2.3
+  /axobject-query/4.1.0:
+    resolution: {integrity: sha512-qIj0G9wZbMGNLjLmg1PT6v2mE9AH2zlnADJD/2tC6E00hgmhUOfEB6greHPAfLRSufHqROIUTkw6E+M3lH0PTQ==}
+    engines: {node: '>= 0.4'}
     dev: true
 
   /babel-merge/3.0.0_@babel+core@7.25.2:
@@ -4117,7 +4116,7 @@ packages:
       semver: 6.3.1
     dev: true
 
-  /eslint-config-airbnb/19.0.4_z6jeokeyd3twb4wr4h6ecfk6uu:
+  /eslint-config-airbnb/19.0.4_42qqrwownlajghmx5vwpglgrya:
     resolution: {integrity: sha512-T75QYQVQX57jiNgpF9r1KegMICE94VYwoFQyMGhrvc+lB8YF2E/M/PYDaQe1AJcWaEgqLE+ErXV1Og/+6Vyzew==}
     engines: {node: ^10.12.0 || ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -4130,7 +4129,7 @@ packages:
       eslint: 8.57.0
       eslint-config-airbnb-base: 15.0.0_dm3siaxkhj74an4x44bvpeeaqq
       eslint-plugin-import: 2.30.0_eslint@8.57.0
-      eslint-plugin-jsx-a11y: 6.9.0_eslint@8.57.0
+      eslint-plugin-jsx-a11y: 6.10.0_eslint@8.57.0
       eslint-plugin-react: 7.35.2_eslint@8.57.0
       eslint-plugin-react-hooks: 4.6.2_eslint@8.57.0
       object.assign: 4.1.5
@@ -4248,18 +4247,18 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-jsx-a11y/6.9.0_eslint@8.57.0:
-    resolution: {integrity: sha512-nOFOCaJG2pYqORjK19lqPqxMO/JpvdCZdPtNdxY3kvom3jTvkAbOvQvD8wuD0G8BYR0IGAGYDlzqWJOh/ybn2g==}
+  /eslint-plugin-jsx-a11y/6.10.0_eslint@8.57.0:
+    resolution: {integrity: sha512-ySOHvXX8eSN6zz8Bywacm7CvGNhUtdjvqfQDVe6020TUK34Cywkw7m0KsCCk1Qtm9G1FayfTN1/7mMYnYO2Bhg==}
     engines: {node: '>=4.0'}
     peerDependencies:
-      eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
+      eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9
     dependencies:
       aria-query: 5.1.3
       array-includes: 3.1.8
       array.prototype.flatmap: 1.3.2
       ast-types-flow: 0.0.8
       axe-core: 4.10.0
-      axobject-query: 3.1.1
+      axobject-query: 4.1.0
       damerau-levenshtein: 1.0.8
       emoji-regex: 9.2.2
       es-iterator-helpers: 1.0.19
