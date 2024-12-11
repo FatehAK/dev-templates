@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@types/react': ^18.3.15
-  '@types/react-dom': ^18.3.3
+  '@types/react-dom': ^18.3.4
   '@vitejs/plugin-react': ^3.1.0
   modern-normalize: ^1.1.0
   prop-types: ^15.8.1
@@ -18,7 +18,7 @@ dependencies:
 
 devDependencies:
   '@types/react': 18.3.15
-  '@types/react-dom': 18.3.3_@types+react@18.3.15
+  '@types/react-dom': 18.3.4_@types+react@18.3.15
   '@vitejs/plugin-react': 3.1.0_vite@4.5.5
   vite: 4.5.5
 
@@ -435,8 +435,8 @@ packages:
     resolution: {integrity: sha512-gNMvNH49DJ7OJYv+KAKn0Xp45p8PLl6zo2YnvDIbTd4J6MER2BmWN49TG7n9LvkyihINxeKW8+3bfS2yDC9dzQ==}
     dev: true
 
-  /@types/react-dom/18.3.3_@types+react@18.3.15:
-    resolution: {integrity: sha512-uTYkxTLkYp41nq/ULXyXMtkNT1vu5fXJoqad6uTNCOGat5t9cLgF4vMNLBXsTOXpdOI44XzKPY1M5RRm0bQHuw==}
+  /@types/react-dom/18.3.4_@types+react@18.3.15:
+    resolution: {integrity: sha512-HMqjZ3RJxmfoOn3sVc0T0fO6qSrLDnUQYB+azHKdBBz1eOt0Sq4wUu2Sf1/Dt18gqhECg0fZ33tkh/6YdwrSCw==}
     peerDependencies:
       '@types/react': ^18.0.0
     dependencies:
