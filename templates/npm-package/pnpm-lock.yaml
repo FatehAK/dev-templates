@@ -17,7 +17,7 @@ specifiers:
   prettier: ^2.8.8
   release-it: ^15.11.0
   rimraf: ^4.4.1
-  rollup-plugin-visualizer: ^5.13.0
+  rollup-plugin-visualizer: ^5.13.1
   vite: ^4.5.5
 
 devDependencies:
@@ -37,7 +37,7 @@ devDependencies:
   prettier: 2.8.8
   release-it: 15.11.0
   rimraf: 4.4.1
-  rollup-plugin-visualizer: 5.13.0
+  rollup-plugin-visualizer: 5.13.1
   vite: 4.5.5_@types+node@20.5.1
 
 packages:
@@ -3850,6 +3850,11 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
+  /picomatch/4.0.2:
+    resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
+    engines: {node: '>=12'}
+    dev: true
+
   /pidtree/0.6.0:
     resolution: {integrity: sha512-eG2dWTVw5bzqGRztnHExczNxt5VGsE6OwTeCG3fdUf9KBsZzO3R5OIIIzWR+iZA0NtZ+RDVdaoE2dK1cn6jH4g==}
     engines: {node: '>=0.10'}
@@ -4190,8 +4195,8 @@ packages:
       glob: 9.3.5
     dev: true
 
-  /rollup-plugin-visualizer/5.13.0:
-    resolution: {integrity: sha512-H/IqyYIJpDj8CfN6zDSV2y8zGBuLZFVM1wPsPOKKlQEZk9t3Dp+SeHlv3NUtOuqrfcNpRpTT3b7Z40kxz9lI4Q==}
+  /rollup-plugin-visualizer/5.13.1:
+    resolution: {integrity: sha512-vMg8i6BprL8aFm9DKvL2c8AwS8324EgymYQo9o6E26wgVvwMhsJxS37aNL6ZsU7X9iAcMYwdME7gItLfG5fwJg==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
@@ -4204,6 +4209,7 @@ packages:
         optional: true
     dependencies:
       open: 8.4.2
+      picomatch: 4.0.2
       source-map: 0.7.4
       yargs: 17.7.2
     dev: true
