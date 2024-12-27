@@ -22,7 +22,7 @@ specifiers:
   prettier: ^2.8.8
   release-it: ^15.11.0
   rimraf: ^4.4.1
-  rollup-plugin-visualizer: ^5.12.0
+  rollup-plugin-visualizer: ^5.13.0
   vite: ^4.5.5
 
 dependencies:
@@ -49,7 +49,7 @@ devDependencies:
   prettier: 2.8.8
   release-it: 15.11.0
   rimraf: 4.4.1
-  rollup-plugin-visualizer: 5.12.0
+  rollup-plugin-visualizer: 5.13.0
   vite: 4.5.5_@types+node@20.5.1
 
 packages:
@@ -4195,18 +4195,20 @@ packages:
       glob: 9.3.5
     dev: true
 
-  /rollup-plugin-visualizer/5.12.0:
-    resolution: {integrity: sha512-8/NU9jXcHRs7Nnj07PF2o4gjxmm9lXIrZ8r175bT9dK8qoLlvKTwRMArRCMgpMGlq8CTLugRvEmyMeMXIU2pNQ==}
-    engines: {node: '>=14'}
+  /rollup-plugin-visualizer/5.13.0:
+    resolution: {integrity: sha512-H/IqyYIJpDj8CfN6zDSV2y8zGBuLZFVM1wPsPOKKlQEZk9t3Dp+SeHlv3NUtOuqrfcNpRpTT3b7Z40kxz9lI4Q==}
+    engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
+      rolldown: 1.x
       rollup: 2.x || 3.x || 4.x
     peerDependenciesMeta:
+      rolldown:
+        optional: true
       rollup:
         optional: true
     dependencies:
       open: 8.4.2
-      picomatch: 2.3.1
       source-map: 0.7.4
       yargs: 17.7.2
     dev: true
