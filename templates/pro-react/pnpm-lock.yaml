@@ -53,7 +53,7 @@ specifiers:
   stylelint-formatter-pretty: ^3.2.1
   stylelint-order: ^6.0.4
   svgo: ^3.3.1
-  terser: ^5.38.0
+  terser: ^5.38.1
   vite: ^4.5.9
   vite-plugin-html-config: ^1.0.11
   vite-plugin-image-optimizer: ^1.1.8
@@ -79,7 +79,7 @@ devDependencies:
   '@stylelint/postcss-css-in-js': 0.38.0_tl6gueuxaz732uj6krdqvw7otm
   '@types/react': 18.3.18
   '@types/react-dom': 18.3.5_@types+react@18.3.18
-  '@vitejs/plugin-legacy': 4.1.1_terser@5.38.0+vite@4.5.9
+  '@vitejs/plugin-legacy': 4.1.1_terser@5.38.1+vite@4.5.9
   '@vitejs/plugin-react': 3.1.0_vite@4.5.9
   browserslist-to-esbuild: 1.2.0
   change-case: 4.1.2
@@ -116,8 +116,8 @@ devDependencies:
   stylelint-formatter-pretty: 3.2.1
   stylelint-order: 6.0.4_stylelint@15.11.0
   svgo: 3.3.2
-  terser: 5.38.0
-  vite: 4.5.9_qa6plf4rcg2hxl6csee7oedjzu
+  terser: 5.38.1
+  vite: 4.5.9_cu3ddpdsjpqzxntxcp2ii4jqu4
   vite-plugin-html-config: 1.0.11_vite@4.5.9
   vite-plugin-image-optimizer: 1.1.8_vite@4.5.9
   vite-plugin-minify: 1.5.2_vite@4.5.9
@@ -2420,7 +2420,7 @@ packages:
       '@linaria/logger': 4.5.0
       '@linaria/utils': 4.5.3
       '@rollup/pluginutils': 4.2.1
-      vite: 4.5.9_qa6plf4rcg2hxl6csee7oedjzu
+      vite: 4.5.9_cu3ddpdsjpqzxntxcp2ii4jqu4
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -2525,7 +2525,7 @@ packages:
       rollup: 2.79.2
       serialize-javascript: 6.0.2
       smob: 1.5.0
-      terser: 5.38.0
+      terser: 5.38.1
     dev: true
 
   /@rollup/pluginutils/3.1.0_rollup@2.79.2:
@@ -2677,7 +2677,7 @@ packages:
     resolution: {integrity: sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==}
     dev: true
 
-  /@vitejs/plugin-legacy/4.1.1_terser@5.38.0+vite@4.5.9:
+  /@vitejs/plugin-legacy/4.1.1_terser@5.38.1+vite@4.5.9:
     resolution: {integrity: sha512-um3gbVouD2Q/g19C0qpDfHwveXDCAHzs8OC3e9g6aXpKoD1H14himgs7wkMnhAynBJy7QqUoZNAXDuqN8zLR2g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -2691,8 +2691,8 @@ packages:
       magic-string: 0.30.17
       regenerator-runtime: 0.13.11
       systemjs: 6.15.1
-      terser: 5.38.0
-      vite: 4.5.9_qa6plf4rcg2hxl6csee7oedjzu
+      terser: 5.38.1
+      vite: 4.5.9_cu3ddpdsjpqzxntxcp2ii4jqu4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2708,7 +2708,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.25.9_@babel+core@7.26.7
       magic-string: 0.27.0
       react-refresh: 0.14.2
-      vite: 4.5.9_qa6plf4rcg2hxl6csee7oedjzu
+      vite: 4.5.9_cu3ddpdsjpqzxntxcp2ii4jqu4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4698,7 +4698,7 @@ packages:
       he: 1.2.0
       param-case: 3.0.4
       relateurl: 0.2.7
-      terser: 5.38.0
+      terser: 5.38.1
     dev: true
 
   /html-tags/3.3.1:
@@ -7398,8 +7398,8 @@ packages:
       unique-string: 2.0.0
     dev: true
 
-  /terser/5.38.0:
-    resolution: {integrity: sha512-a4GD5R1TjEeuCT6ZRiYMHmIf7okbCPEuhQET8bczV6FrQMMlFXA1n+G0KKjdlFCm3TEHV77GxfZB3vZSUQGFpg==}
+  /terser/5.38.1:
+    resolution: {integrity: sha512-GWANVlPM/ZfYzuPHjq0nxT+EbOEDDN3Jwhwdg1D8TU8oSkktp8w64Uq4auuGLxFSoNTRDncTq2hQHX1Ld9KHkA==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -7708,7 +7708,7 @@ packages:
     peerDependencies:
       vite: '>=2.0.0 || >=4'
     dependencies:
-      vite: 4.5.9_qa6plf4rcg2hxl6csee7oedjzu
+      vite: 4.5.9_cu3ddpdsjpqzxntxcp2ii4jqu4
     dev: true
 
   /vite-plugin-image-optimizer/1.1.8_vite@4.5.9:
@@ -7719,7 +7719,7 @@ packages:
     dependencies:
       ansi-colors: 4.1.3
       pathe: 1.1.2
-      vite: 4.5.9_qa6plf4rcg2hxl6csee7oedjzu
+      vite: 4.5.9_cu3ddpdsjpqzxntxcp2ii4jqu4
     dev: true
 
   /vite-plugin-minify/1.5.2_vite@4.5.9:
@@ -7728,7 +7728,7 @@ packages:
       vite: '*'
     dependencies:
       html-minifier-terser: 6.1.0
-      vite: 4.5.9_qa6plf4rcg2hxl6csee7oedjzu
+      vite: 4.5.9_cu3ddpdsjpqzxntxcp2ii4jqu4
     dev: true
 
   /vite-plugin-pwa/0.21.1_6ngu6lxflffutz57bejfzpkbji:
@@ -7746,14 +7746,14 @@ packages:
       debug: 4.4.0
       pretty-bytes: 6.1.1
       tinyglobby: 0.2.10
-      vite: 4.5.9_qa6plf4rcg2hxl6csee7oedjzu
+      vite: 4.5.9_cu3ddpdsjpqzxntxcp2ii4jqu4
       workbox-build: 7.3.0
       workbox-window: 7.3.0
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/4.5.9_qa6plf4rcg2hxl6csee7oedjzu:
+  /vite/4.5.9_cu3ddpdsjpqzxntxcp2ii4jqu4:
     resolution: {integrity: sha512-qK9W4xjgD3gXbC0NmdNFFnVFLMWSNiR3swj957yutwzzN16xF/E7nmtAyp1rT9hviDroQANjE4HK3H4WqWdFtw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -7785,7 +7785,7 @@ packages:
       esbuild: 0.18.20
       postcss: 8.5.1
       rollup: 3.29.5
-      terser: 5.38.0
+      terser: 5.38.1
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
