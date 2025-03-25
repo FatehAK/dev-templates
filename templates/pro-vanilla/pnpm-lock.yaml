@@ -2,8 +2,8 @@ lockfileVersion: 5.4
 
 specifiers:
   '@commitlint/cli': ^17.8.1
-  '@html-eslint/eslint-plugin': ^0.36.0
-  '@html-eslint/parser': ^0.36.0
+  '@html-eslint/eslint-plugin': ^0.37.0
+  '@html-eslint/parser': ^0.37.0
   '@rollup/plugin-strip': ^3.0.4
   '@vitejs/plugin-legacy': ^4.1.1
   browserslist-to-esbuild: ^1.2.0
@@ -50,8 +50,8 @@ dependencies:
 
 devDependencies:
   '@commitlint/cli': 17.8.1
-  '@html-eslint/eslint-plugin': 0.36.0
-  '@html-eslint/parser': 0.36.0
+  '@html-eslint/eslint-plugin': 0.37.0
+  '@html-eslint/parser': 0.37.0
   '@rollup/plugin-strip': 3.0.4_rollup@2.79.2
   '@vitejs/plugin-legacy': 4.1.1_terser@5.39.0+vite@4.5.10
   browserslist-to-esbuild: 1.2.0
@@ -1916,28 +1916,28 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@html-eslint/eslint-plugin/0.36.0:
-    resolution: {integrity: sha512-j0jj+mWy1TVZXmbCX2Di7sZtgqEHs8QvKVF6MM1uULGwYQmGYNrSe3AzkHPU5NxzpJNO1yrL7VLbO7OL6mLr8g==}
+  /@html-eslint/eslint-plugin/0.37.0:
+    resolution: {integrity: sha512-sSVZoxLGfmZMUclv0foJ43ZKu4qX5cH+9AX+ToELxg1RIfcjbEF71MA7ssoG7YlZzv0jQSDY2izyRjrfQGnWWg==}
     dependencies:
-      '@html-eslint/template-parser': 0.36.0
-      '@html-eslint/template-syntax-parser': 0.36.0
+      '@html-eslint/template-parser': 0.37.0
+      '@html-eslint/template-syntax-parser': 0.37.0
     dev: true
 
-  /@html-eslint/parser/0.36.0:
-    resolution: {integrity: sha512-MFA2M1WIMHTAwS+ibPvKTCYCPL/geLtO3GlQoee3q3GWG17QtDMDKxse8/HaLoHn9u0ehtGDAGo+uAX5nehKJw==}
+  /@html-eslint/parser/0.37.0:
+    resolution: {integrity: sha512-shrBuyEsa8iilhRrUlArULkleVlsNZVPXVulejmq7DkxNj1bQyYVFRYHIkhg5GkbPZT6wrUeA2SLOJ2xanpYIA==}
     dependencies:
-      '@html-eslint/template-syntax-parser': 0.36.0
+      '@html-eslint/template-syntax-parser': 0.37.0
       es-html-parser: 0.1.1
     dev: true
 
-  /@html-eslint/template-parser/0.36.0:
-    resolution: {integrity: sha512-4CoQQhRaj7NK1Vfxw5m+y5ty+rClRr3pqe6LrsedHib8G8FPSwiYyNW2hAri09Sq/MeM1tHHezLgak+IN5TXSA==}
+  /@html-eslint/template-parser/0.37.0:
+    resolution: {integrity: sha512-L6pHkKVwReacWTpSux1RFaYWOAd8JoPC88MfVIjHLVoEf8s0SnnDXKLcR30KuQnMjYRQpXp2GmPaZxZeZjtKTw==}
     dependencies:
       es-html-parser: 0.1.1
     dev: true
 
-  /@html-eslint/template-syntax-parser/0.36.0:
-    resolution: {integrity: sha512-lBjcbATQ4Q1hLDtedyunPtbRCkiR5NdOu1l5PrcO2Zr+7cKLBWniR3Eo1txBXMbp5MB4X06f7ppqtTn93MEHDA==}
+  /@html-eslint/template-syntax-parser/0.37.0:
+    resolution: {integrity: sha512-xL/OVGJOJQ8G3akZFlQeADPMX9OTVrUwMaAGrwIewf4k7lxnpz8sDaFgpkA5X7AYzmhIeENrhaB/pIbC0KaSyQ==}
     dev: true
 
   /@humanwhocodes/config-array/0.13.0:
