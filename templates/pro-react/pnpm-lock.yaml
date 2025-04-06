@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@commitlint/cli': ^17.8.1
-  '@html-eslint/eslint-plugin': ^0.38.0
+  '@html-eslint/eslint-plugin': ^0.38.1
   '@html-eslint/parser': ^0.38.0
   '@linaria/core': ^4.5.4
   '@linaria/react': ^4.5.4
@@ -70,7 +70,7 @@ dependencies:
 
 devDependencies:
   '@commitlint/cli': 17.8.1
-  '@html-eslint/eslint-plugin': 0.38.0
+  '@html-eslint/eslint-plugin': 0.38.1
   '@html-eslint/parser': 0.38.0
   '@linaria/core': 4.5.4
   '@linaria/react': 4.5.4_react@18.3.1
@@ -2025,8 +2025,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@html-eslint/eslint-plugin/0.38.0:
-    resolution: {integrity: sha512-7GbBg7lPjWgCuLjGArxLpuXm8ZPJuL02QklT+OpMVrzK8RSJNhFZRiZWRa7Iw6GFw2Sfr/9foIgpeUGhx8hEJw==}
+  /@html-eslint/eslint-plugin/0.38.1:
+    resolution: {integrity: sha512-o2i9TtcaBl6tJpR8LYxj9OsVe5x10/PJWk66Cgg64hJKhGsITos+ALgaCxSxhnDL+cHXC+FnSoR/xf2zVTzcOQ==}
     dependencies:
       '@html-eslint/template-parser': 0.38.0
       '@html-eslint/template-syntax-parser': 0.38.0
