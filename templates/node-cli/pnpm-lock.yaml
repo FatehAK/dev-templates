@@ -4,7 +4,7 @@ specifiers:
   '@commitlint/cli': ^17.8.1
   ansi-colors: ^4.1.3
   concurrently: ^7.6.0
-  czg: 1.11.1
+  czg: 1.11.2
   eslint: ^8.57.1
   eslint-config-prettier: ^8.10.0
   eslint-config-semistandard: ^17.0.0
@@ -35,7 +35,7 @@ dependencies:
 devDependencies:
   '@commitlint/cli': 17.8.1
   concurrently: 7.6.0
-  czg: 1.11.1
+  czg: 1.11.2
   eslint: 8.57.1
   eslint-config-prettier: 8.10.0_eslint@8.57.1
   eslint-config-semistandard: 17.0.0_yiv6l6fnnnmieqxyn372qpwani
@@ -1372,8 +1372,8 @@ packages:
       type-fest: 1.4.0
     dev: true
 
-  /czg/1.11.1:
-    resolution: {integrity: sha512-2k/Dh7MiRKMUEtQO3kWVkgPmvf0wZlxyS7Svr8cpI2ScATkLuA5uWa2ukJnTXG6Pwe73vFhGO9jd9IiE3NOM5g==}
+  /czg/1.11.2:
+    resolution: {integrity: sha512-39FMIqz6xuelBvNa/jPc918CAgDNABfYnDT7wPbWaQGZ2a+sDBuI+X1pQ71jkFD32DcWkD/pVpZqlyvgtMJdGA==}
     engines: {node: '>=v12.20.0'}
     hasBin: true
     dev: true
