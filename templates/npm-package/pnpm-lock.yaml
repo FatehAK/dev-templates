@@ -8,7 +8,7 @@ specifiers:
   eslint-config-prettier: ^8.10.0
   eslint-config-semistandard: ^17.0.0
   eslint-formatter-pretty: ^4.1.0
-  eslint-plugin-import: ^2.31.0
+  eslint-plugin-import: ^2.32.0
   eslint-plugin-only-warn: ^1.1.0
   eslint-plugin-promise: ^6.6.0
   eslint-plugin-sonarjs: ^0.25.1
@@ -26,9 +26,9 @@ devDependencies:
   czg: 1.11.2
   eslint: 8.57.1
   eslint-config-prettier: 8.10.0_eslint@8.57.1
-  eslint-config-semistandard: 17.0.0_yiv6l6fnnnmieqxyn372qpwani
+  eslint-config-semistandard: 17.0.0_fkfkepfkdooyiscvg72e5gluty
   eslint-formatter-pretty: 4.1.0
-  eslint-plugin-import: 2.31.0_eslint@8.57.1
+  eslint-plugin-import: 2.32.0_eslint@8.57.1
   eslint-plugin-only-warn: 1.1.0
   eslint-plugin-promise: 6.6.0_eslint@8.57.1
   eslint-plugin-sonarjs: 0.25.1_eslint@8.57.1
@@ -1806,7 +1806,7 @@ packages:
       eslint: 8.57.1
     dev: true
 
-  /eslint-config-semistandard/17.0.0_yiv6l6fnnnmieqxyn372qpwani:
+  /eslint-config-semistandard/17.0.0_fkfkepfkdooyiscvg72e5gluty:
     resolution: {integrity: sha512-tLi0JYmfiiJgtmRhoES55tENatR7y/5aXOh6cBeW+qjzl1+WwyV0arDqR65XN3/xrPZt+/1EG+xNLknV/0jWsQ==}
     peerDependencies:
       eslint: ^8.13.0
@@ -1816,13 +1816,13 @@ packages:
       eslint-plugin-promise: ^6.0.0
     dependencies:
       eslint: 8.57.1
-      eslint-config-standard: 17.1.0_rsdgfvwrqkehuxkxw6n6ygfvqu
-      eslint-plugin-import: 2.31.0_eslint@8.57.1
+      eslint-config-standard: 17.1.0_w7ovmhze57gjxhemngiacjg6py
+      eslint-plugin-import: 2.32.0_eslint@8.57.1
       eslint-plugin-n: 15.7.0_eslint@8.57.1
       eslint-plugin-promise: 6.6.0_eslint@8.57.1
     dev: true
 
-  /eslint-config-standard/17.1.0_rsdgfvwrqkehuxkxw6n6ygfvqu:
+  /eslint-config-standard/17.1.0_w7ovmhze57gjxhemngiacjg6py:
     resolution: {integrity: sha512-IwHwmaBNtDK4zDHQukFDW5u/aTb8+meQWZvNFWkiGmbWjD6bqyuSSBxxXKkCftCUzc1zwCH2m/baCNDLGmuO5Q==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -1832,7 +1832,7 @@ packages:
       eslint-plugin-promise: ^6.0.0
     dependencies:
       eslint: 8.57.1
-      eslint-plugin-import: 2.31.0_eslint@8.57.1
+      eslint-plugin-import: 2.32.0_eslint@8.57.1
       eslint-plugin-n: 15.7.0_eslint@8.57.1
       eslint-plugin-promise: 6.6.0_eslint@8.57.1
     dev: true
@@ -1861,8 +1861,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-module-utils/2.12.0_rfhnpyqadzbw26eiqc3hoihdgi:
-    resolution: {integrity: sha512-wALZ0HFoytlyh/1+4wuZ9FJCD/leWHQzzrxJ8+rebyReSLk7LApMyd3WJaLVoN+D5+WIdJyDK1c6JnE65V4Zyg==}
+  /eslint-module-utils/2.12.1_rfhnpyqadzbw26eiqc3hoihdgi:
+    resolution: {integrity: sha512-L8jSWTze7K2mTg0vos/RuLRS5soomksDPoJLXIslC7c8Wmut3bx7CPpJijDcBZtxQ5lrbUdM+s0OlNbz0DCDNw==}
     engines: {node: '>=4'}
     peerDependencies:
       '@typescript-eslint/parser': '*'
@@ -1900,8 +1900,8 @@ packages:
       regexpp: 3.2.0
     dev: true
 
-  /eslint-plugin-import/2.31.0_eslint@8.57.1:
-    resolution: {integrity: sha512-ixmkI62Rbc2/w8Vfxyh1jQRTdRTF52VxwRVHl/ykPAmqG+Nb7/kNn+byLP0LxPgI7zWA16Jt82SybJInmMia3A==}
+  /eslint-plugin-import/2.32.0_eslint@8.57.1:
+    resolution: {integrity: sha512-whOE1HFo/qJDyX4SnXzP4N6zOWn79WhnCUY/iDR0mPfQZO8wcYE4JClzI2oZrhBnnMUCBCHZhO6VQyoBU95mZA==}
     engines: {node: '>=4'}
     peerDependencies:
       '@typescript-eslint/parser': '*'
@@ -1919,7 +1919,7 @@ packages:
       doctrine: 2.1.0
       eslint: 8.57.1
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.0_rfhnpyqadzbw26eiqc3hoihdgi
+      eslint-module-utils: 2.12.1_rfhnpyqadzbw26eiqc3hoihdgi
       hasown: 2.0.2
       is-core-module: 2.16.1
       is-glob: 4.0.3
@@ -3818,7 +3818,7 @@ packages:
       got: 12.6.1
       registry-auth-token: 5.1.0
       registry-url: 6.0.1
-      semver: 7.5.1
+      semver: 7.7.2
     dev: true
 
   /parent-module/1.0.1:
@@ -4330,7 +4330,7 @@ packages:
     resolution: {integrity: sha512-0Ju4+6A8iOnpL/Thra7dZsSlOHYAHIeMxfhWQRI1/VLcT3WDBZKKtQt/QkBOsiIN9ZpuvHE6cGZ0x4glCMmfiA==}
     engines: {node: '>=12'}
     dependencies:
-      semver: 7.5.1
+      semver: 7.7.2
     dev: true
 
   /semver/5.7.2:
@@ -4954,7 +4954,7 @@ packages:
       is-yarn-global: 0.4.1
       latest-version: 7.0.0
       pupa: 3.1.0
-      semver: 7.5.1
+      semver: 7.7.2
       semver-diff: 4.0.0
       xdg-basedir: 5.1.0
     dev: true
