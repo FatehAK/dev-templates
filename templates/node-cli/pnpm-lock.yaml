@@ -3821,7 +3821,7 @@ packages:
       got: 12.6.1
       registry-auth-token: 5.1.0
       registry-url: 6.0.1
-      semver: 7.7.2
+      semver: 7.5.1
     dev: true
 
   /parent-module/1.0.1:
@@ -3924,8 +3924,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /postcss/8.5.5:
-    resolution: {integrity: sha512-d/jtm+rdNT8tpXuHY5MMtcbJFBkhXE6593XVR9UoGCH8jSFGci7jGvMGH5RYd5PBJW+00NZQt6gf7CbagJCrhg==}
+  /postcss/8.5.6:
+    resolution: {integrity: sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.11
@@ -4335,7 +4335,7 @@ packages:
     resolution: {integrity: sha512-0Ju4+6A8iOnpL/Thra7dZsSlOHYAHIeMxfhWQRI1/VLcT3WDBZKKtQt/QkBOsiIN9ZpuvHE6cGZ0x4glCMmfiA==}
     engines: {node: '>=12'}
     dependencies:
-      semver: 7.7.2
+      semver: 7.5.1
     dev: true
 
   /semver/5.7.2:
@@ -4954,7 +4954,7 @@ packages:
       is-yarn-global: 0.4.1
       latest-version: 7.0.0
       pupa: 3.1.0
-      semver: 7.7.2
+      semver: 7.5.1
       semver-diff: 4.0.0
       xdg-basedir: 5.1.0
     dev: true
@@ -5015,7 +5015,7 @@ packages:
     dependencies:
       '@types/node': 20.5.1
       esbuild: 0.18.20
-      postcss: 8.5.5
+      postcss: 8.5.6
       rollup: 3.29.5
     optionalDependencies:
       fsevents: 2.3.3
