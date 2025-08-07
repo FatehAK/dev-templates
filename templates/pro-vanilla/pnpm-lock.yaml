@@ -2,8 +2,8 @@ lockfileVersion: 5.4
 
 specifiers:
   '@commitlint/cli': ^17.8.1
-  '@html-eslint/eslint-plugin': ^0.43.1
-  '@html-eslint/parser': ^0.43.0
+  '@html-eslint/eslint-plugin': ^0.44.0
+  '@html-eslint/parser': ^0.44.0
   '@rollup/plugin-strip': ^3.0.4
   '@vitejs/plugin-legacy': ^4.1.1
   browserslist-to-esbuild: ^1.2.0
@@ -50,8 +50,8 @@ dependencies:
 
 devDependencies:
   '@commitlint/cli': 17.8.1
-  '@html-eslint/eslint-plugin': 0.43.1_eslint@8.57.1
-  '@html-eslint/parser': 0.43.0
+  '@html-eslint/eslint-plugin': 0.44.0_eslint@8.57.1
+  '@html-eslint/parser': 0.44.0
   '@rollup/plugin-strip': 3.0.4_rollup@2.79.2
   '@vitejs/plugin-legacy': 4.1.1_terser@5.43.1+vite@4.5.14
   browserslist-to-esbuild: 1.2.0
@@ -1954,34 +1954,34 @@ packages:
       levn: 0.4.1
     dev: true
 
-  /@html-eslint/eslint-plugin/0.43.1_eslint@8.57.1:
-    resolution: {integrity: sha512-+vuLRT4rgEjRE5/QU8WJ3uvXhxJDFnKa12cGSOupAFy4XAaYEiB8lYH3W1xZ/kK8PEPwZhOhrkCcU6rNLP46Sg==}
+  /@html-eslint/eslint-plugin/0.44.0_eslint@8.57.1:
+    resolution: {integrity: sha512-1nPHVSNhQjDRs49o5dn+Cn2LB2GJNQcvVZm5QCU9nHwEK1cFku26YBQXJc1BAVKuFFgusDdFI5CUVEDt2h8fEA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^8.0.0 || ^9.0.0
     dependencies:
       '@eslint/plugin-kit': 0.3.4
-      '@html-eslint/parser': 0.43.0
-      '@html-eslint/template-parser': 0.43.0
-      '@html-eslint/template-syntax-parser': 0.43.0
+      '@html-eslint/parser': 0.44.0
+      '@html-eslint/template-parser': 0.44.0
+      '@html-eslint/template-syntax-parser': 0.44.0
       eslint: 8.57.1
     dev: true
 
-  /@html-eslint/parser/0.43.0:
-    resolution: {integrity: sha512-/mgKhfwJ8hPooLTRemyuKxR09Je7D300wEockl9clcFplNKHua1rzP2ih1TL/PIaqZGg+SZ72hG+JL9QjGsTog==}
+  /@html-eslint/parser/0.44.0:
+    resolution: {integrity: sha512-6tYZa0ejwmRfx2pweUNLWss8vQ51nJv0ZyC59JMw8LIXPIYaNCUJlTqFB9cazMDHDYssbKLeZTTD4E3PkjToHw==}
     dependencies:
-      '@html-eslint/template-syntax-parser': 0.43.0
-      es-html-parser: 0.2.0
+      '@html-eslint/template-syntax-parser': 0.44.0
+      es-html-parser: 0.3.0
     dev: true
 
-  /@html-eslint/template-parser/0.43.0:
-    resolution: {integrity: sha512-BrYXKNyJpsdIQF3qCrldpb5cOIebSuMdgIoOzAvL8op1/fBQh3FEK9sX/44GBLQnLhI/JpTTHNyRv7Kohg/QEw==}
+  /@html-eslint/template-parser/0.44.0:
+    resolution: {integrity: sha512-JOAYHuYTLZX1xxLWi2RX9cp+TszJpOB31yBSqouqQGY2tCLgxGFLnWZiA5Nlnng2hKdc3aJahzxYt+KwP2LBPA==}
     dependencies:
-      es-html-parser: 0.2.0
+      es-html-parser: 0.3.0
     dev: true
 
-  /@html-eslint/template-syntax-parser/0.43.0:
-    resolution: {integrity: sha512-I4rhsmqDlA9w0e6dRC/MDM98w2WPG6eXHJJjZzr7PoQjOdAETRUef0dgl78ayyNPKqeU2M0gN537Qh2/m3jinA==}
+  /@html-eslint/template-syntax-parser/0.44.0:
+    resolution: {integrity: sha512-4hjTThDLbcFNy/77YwVqTO1WQfWsQJJen87bMa1RsM6CHI3rsqwqVeFxWo4Z7ojdl+LRujUkzOXe+QJ+xNb9MA==}
     dev: true
 
   /@humanwhocodes/config-array/0.13.0:
@@ -3507,8 +3507,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /es-html-parser/0.2.0:
-    resolution: {integrity: sha512-snJ7uJC8Dkx/yT0eYZrWcY57rkPU6Zui6YphPynw8r52AWf57gjqMC0GWe7OxSDipwXowFpa3rqckEeAPTOz7w==}
+  /es-html-parser/0.3.0:
+    resolution: {integrity: sha512-86KsmbP/zqoG7LIoXiCXv7KFDVbF9N9SCpavmRzeKtCODmF+LyLEBt3UPSlcntNQEwGGe0xn4ZED186rLmwKSw==}
     dev: true
 
   /es-object-atoms/1.1.1:
@@ -6464,6 +6464,7 @@ packages:
   /source-map/0.8.0-beta.0:
     resolution: {integrity: sha512-2ymg6oRBpebeZi9UUNsgQ89bhx01TcTkmNTGnNO88imTmbSgy4nfujrgVEFKWpMTEGA11EDkTt7mqObTPdigIA==}
     engines: {node: '>= 8'}
+    deprecated: The work that was done in this beta branch won't be included in future versions
     dependencies:
       whatwg-url: 7.1.0
     dev: true
