@@ -463,8 +463,8 @@ packages:
       - supports-color
     dev: true
 
-  /baseline-browser-mapping/2.9.7:
-    resolution: {integrity: sha512-k9xFKplee6KIio3IDbwj+uaCLpqzOwakOgmqzPezM0sFJlFKcg30vk2wOiAJtkTSfx0SSQDSe8q+mWA/fSH5Zg==}
+  /baseline-browser-mapping/2.9.11:
+    resolution: {integrity: sha512-Sg0xJUNDU1sJNGdfGWhVHX0kkZ+HWcvmVymJbj6NSgZZmW/8S9Y2HQ5euytnIgakgxN6papOAWiwDo1ctFDcoQ==}
     hasBin: true
     dev: true
 
@@ -473,15 +473,15 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      baseline-browser-mapping: 2.9.7
-      caniuse-lite: 1.0.30001760
+      baseline-browser-mapping: 2.9.11
+      caniuse-lite: 1.0.30001761
       electron-to-chromium: 1.5.267
       node-releases: 2.0.27
-      update-browserslist-db: 1.2.2_browserslist@4.28.1
+      update-browserslist-db: 1.2.3_browserslist@4.28.1
     dev: true
 
-  /caniuse-lite/1.0.30001760:
-    resolution: {integrity: sha512-7AAMPcueWELt1p3mi13HR/LHH0TJLT11cnwDJEs3xA4+CK/PLKeO9Kl1oru24htkyUKtkGCvAx4ohB0Ttry8Dw==}
+  /caniuse-lite/1.0.30001761:
+    resolution: {integrity: sha512-JF9ptu1vP2coz98+5051jZ4PwQgd2ni8A+gYSN7EA7dPKIMf0pDlSUxhdmVOaV3/fYK5uWBkgSXJaRLr4+3A6g==}
     dev: true
 
   /convert-source-map/2.0.0:
@@ -686,8 +686,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /update-browserslist-db/1.2.2_browserslist@4.28.1:
-    resolution: {integrity: sha512-E85pfNzMQ9jpKkA7+TJAi4TJN+tBCuWh5rUcS/sv6cFi+1q9LYDwDI5dpUL0u/73EElyQ8d3TEaeW4sPedBqYA==}
+  /update-browserslist-db/1.2.3_browserslist@4.28.1:
+    resolution: {integrity: sha512-Js0m9cx+qOgDxo0eMiFGEueWztz+d4+M3rGlmKPT+T4IS/jP4ylw3Nwpu6cpTTP8R1MAC1kF4VbdLt3ARf209w==}
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
