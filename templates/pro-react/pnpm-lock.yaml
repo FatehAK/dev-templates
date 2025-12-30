@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@commitlint/cli': ^17.8.1
-  '@html-eslint/eslint-plugin': ^0.52.0
+  '@html-eslint/eslint-plugin': ^0.52.1
   '@html-eslint/parser': ^0.52.0
   '@linaria/core': ^4.5.4
   '@linaria/react': ^4.5.4
@@ -70,7 +70,7 @@ dependencies:
 
 devDependencies:
   '@commitlint/cli': 17.8.1
-  '@html-eslint/eslint-plugin': 0.52.0_eslint@8.57.1
+  '@html-eslint/eslint-plugin': 0.52.1_eslint@8.57.1
   '@html-eslint/parser': 0.52.0
   '@linaria/core': 4.5.4
   '@linaria/react': 4.5.4_react@18.3.1
@@ -2110,8 +2110,8 @@ packages:
       levn: 0.4.1
     dev: true
 
-  /@html-eslint/eslint-plugin/0.52.0_eslint@8.57.1:
-    resolution: {integrity: sha512-ica2daHo1Aj80xw5rZK+emONUGhpIBe3KwsXQooMnkK+RBfJcuDXXqRuWb4Ra5AT5MCXVKFzkmwaF8VARuKRoQ==}
+  /@html-eslint/eslint-plugin/0.52.1_eslint@8.57.1:
+    resolution: {integrity: sha512-RaaSpP0hE/rYbssZZdlJjf0+CIVyWx9z/xj4KF5zHLvCeTYwJHAFb9x1/RvFRiMnWaME6ygtwMFYdHauahfvbA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^8.0.0 || ^9.0.0
