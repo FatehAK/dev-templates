@@ -1539,7 +1539,7 @@ packages:
       ast-types: 0.13.4
       escodegen: 1.14.3
       esprima: 4.0.1
-      vm2: 3.10.0
+      vm2: 3.10.1
     dev: true
 
   /deprecation/2.3.1:
@@ -5016,8 +5016,8 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vm2/3.10.0:
-    resolution: {integrity: sha512-3ggF4Bs0cw4M7Rxn19/Cv3nJi04xrgHwt4uLto+zkcZocaKwP/nKP9wPx6ggN2X0DSXxOOIc63BV1jvES19wXQ==}
+  /vm2/3.10.1:
+    resolution: {integrity: sha512-5VKPEiEzLPiIKxfHoGoafr1yL5PKeALbbwwYhiwyEgWmslnao7e1UxKGL93ekGGt45ETs+zFB0tTYLADzCWH8g==}
     engines: {node: '>=6.0'}
     hasBin: true
     dependencies:
