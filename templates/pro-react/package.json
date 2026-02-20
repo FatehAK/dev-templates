@@ -44,8 +44,8 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^17.8.1",
-    "@html-eslint/eslint-plugin": "^0.55.0",
-    "@html-eslint/parser": "^0.55.0",
+    "@html-eslint/eslint-plugin": "^0.56.0",
+    "@html-eslint/parser": "^0.56.0",
     "@linaria/core": "^4.5.4",
     "@linaria/react": "^4.5.4",
     "@linaria/vite": "^4.5.4",
