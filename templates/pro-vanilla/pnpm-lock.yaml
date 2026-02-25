@@ -2,8 +2,8 @@ lockfileVersion: 5.4
 
 specifiers:
   '@commitlint/cli': ^17.8.1
-  '@html-eslint/eslint-plugin': ^0.57.0
-  '@html-eslint/parser': ^0.57.0
+  '@html-eslint/eslint-plugin': ^0.57.1
+  '@html-eslint/parser': ^0.57.1
   '@rollup/plugin-strip': ^3.0.4
   '@vitejs/plugin-legacy': ^4.1.1
   browserslist-to-esbuild: ^1.2.0
@@ -50,8 +50,8 @@ dependencies:
 
 devDependencies:
   '@commitlint/cli': 17.8.1
-  '@html-eslint/eslint-plugin': 0.57.0_eslint@8.57.1
-  '@html-eslint/parser': 0.57.0
+  '@html-eslint/eslint-plugin': 0.57.1_eslint@8.57.1
+  '@html-eslint/parser': 0.57.1
   '@rollup/plugin-strip': 3.0.4_rollup@2.80.0
   '@vitejs/plugin-legacy': 4.1.1_terser@5.46.0+vite@4.5.14
   browserslist-to-esbuild: 1.2.0
@@ -2021,27 +2021,28 @@ packages:
       - supports-color
     dev: true
 
-  /@html-eslint/eslint-plugin/0.57.0_eslint@8.57.1:
-    resolution: {integrity: sha512-9/sjZ2KHsZmco45Z9rGySOocJ734rhjjt1ofXJve7lzzBY+t8FF7fwVp9EmcXSer+0zDUb5hGBHWbgIZ0SEnJA==}
+  /@html-eslint/eslint-plugin/0.57.1_eslint@8.57.1:
+    resolution: {integrity: sha512-IDfdk3V27eebNpdXD2NLy/lnTSbUuKrro/6YJICBn/9aiXPXagNqWJB38qcSWEoxADbXfSSn17DJWcXvQTkHBg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.0.0 || ^10.0.0-0'
     dependencies:
       '@eslint/plugin-kit': 0.4.1
       '@html-eslint/core': 0.57.0
-      '@html-eslint/parser': 0.57.0
+      '@html-eslint/parser': 0.57.1
       '@html-eslint/template-parser': 0.57.0
       '@html-eslint/template-syntax-parser': 0.57.0
       '@html-eslint/types': 0.57.0
       '@rviscomi/capo.js': 2.1.0
       eslint: 8.57.1
+      html-standard: 0.0.13
     transitivePeerDependencies:
       - jiti
       - supports-color
     dev: true
 
-  /@html-eslint/parser/0.57.0:
-    resolution: {integrity: sha512-guzD7QJFM0UOGnOZco7I9WEZOBQCmXR3abt6sIhznq4x7Ws6l/KwnNo7im6r0g7/ftLTmuKnLjyNEbW8seQyMQ==}
+  /@html-eslint/parser/0.57.1:
+    resolution: {integrity: sha512-nQ5vw7Os+Snjxq9hLLBak2bv502Obn77BNOWfGK2+GIrShxtGd8w1ehlKW3EB5/RQzqBk6VDK8nPfexlR3M7kg==}
     dependencies:
       '@eslint/css-tree': 3.6.9
       '@html-eslint/template-syntax-parser': 0.57.0
