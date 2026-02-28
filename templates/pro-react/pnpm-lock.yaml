@@ -25,7 +25,7 @@ specifiers:
   eslint-plugin-html: ^7.1.0
   eslint-plugin-import: ^2.32.0
   eslint-plugin-jsx-a11y: ^6.10.2
-  eslint-plugin-only-warn: ^1.1.0
+  eslint-plugin-only-warn: ^1.2.1
   eslint-plugin-promise: ^6.6.0
   eslint-plugin-react: ^7.37.5
   eslint-plugin-react-hooks: ^4.6.2
@@ -93,7 +93,7 @@ devDependencies:
   eslint-plugin-html: 7.1.0
   eslint-plugin-import: 2.32.0_eslint@8.57.1
   eslint-plugin-jsx-a11y: 6.10.2_eslint@8.57.1
-  eslint-plugin-only-warn: 1.1.0
+  eslint-plugin-only-warn: 1.2.1
   eslint-plugin-promise: 6.6.0_eslint@8.57.1
   eslint-plugin-react: 7.37.5_eslint@8.57.1
   eslint-plugin-react-hooks: 4.6.2_eslint@8.57.1
@@ -4333,9 +4333,8 @@ packages:
       string.prototype.includes: 2.0.1
     dev: true
 
-  /eslint-plugin-only-warn/1.1.0:
-    resolution: {integrity: sha512-2tktqUAT+Q3hCAU0iSf4xAN1k9zOpjK5WO8104mB0rT/dGhOa09582HN5HlbxNbPRZ0THV7nLGvzugcNOSjzfA==}
-    engines: {node: '>=6'}
+  /eslint-plugin-only-warn/1.2.1:
+    resolution: {integrity: sha512-j37hwfaQDEOfkZ1Dpvu/HnWLavlzQxQxfbrU/9Jb4R9qzrE1eTYuRJyrxq7LzLRI8miG5FOV6veoUVhx7AI84w==}
     dev: true
 
   /eslint-plugin-promise/6.6.0_eslint@8.57.1:
