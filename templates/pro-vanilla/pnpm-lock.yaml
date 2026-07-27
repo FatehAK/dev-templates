@@ -1979,7 +1979,7 @@ packages:
       '@html-eslint/template-parser': 0.64.0
       '@html-eslint/template-syntax-parser': 0.64.0
       '@html-eslint/types': 0.64.0
-      '@rviscomi/capo.js': 2.1.1
+      '@rviscomi/capo.js': 2.2.0
       eslint: 8.57.1
       html-standard: 0.0.13
     dev: true
@@ -2671,8 +2671,8 @@ packages:
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
     dev: true
 
-  /@rviscomi/capo.js/2.1.1:
-    resolution: {integrity: sha512-zpZTIBM11Gor7rmIVpSk7Fbrby1LxcHVBRhEfCj3UEF1NwsK57RF03V4eskfWJlvDyZm4IeBVe8GTBtXbzns7g==}
+  /@rviscomi/capo.js/2.2.0:
+    resolution: {integrity: sha512-bf3EFPKV4uQQ+66MkolrYh0axOgSn6XHq8kZbu/aoiI/OFjk6Rcz6N48l822vhvNcOQpI8Pfe2sa0AUd+3PjMQ==}
     dev: true
 
   /@trickfilm400/rollup-plugin-off-main-thread/3.0.0-pre1:
