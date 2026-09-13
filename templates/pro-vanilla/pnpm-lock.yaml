@@ -2,8 +2,8 @@ lockfileVersion: 5.4
 
 specifiers:
   '@commitlint/cli': ^17.8.1
-  '@html-eslint/eslint-plugin': ^0.65.0
-  '@html-eslint/parser': ^0.65.0
+  '@html-eslint/eslint-plugin': ^0.66.0
+  '@html-eslint/parser': ^0.66.0
   '@rollup/plugin-strip': ^3.0.4
   '@vitejs/plugin-legacy': ^4.1.1
   browserslist-to-esbuild: ^1.2.0
@@ -50,8 +50,8 @@ dependencies:
 
 devDependencies:
   '@commitlint/cli': 17.8.1
-  '@html-eslint/eslint-plugin': 0.65.0_eslint@8.57.1
-  '@html-eslint/parser': 0.65.0
+  '@html-eslint/eslint-plugin': 0.66.0_eslint@8.57.1
+  '@html-eslint/parser': 0.66.0
   '@rollup/plugin-strip': 3.0.4
   '@vitejs/plugin-legacy': 4.1.1_terser@5.51.2+vite@4.5.14
   browserslist-to-esbuild: 1.2.0
@@ -1959,55 +1959,55 @@ packages:
       levn: 0.4.1
     dev: true
 
-  /@html-eslint/core/0.65.0:
-    resolution: {integrity: sha512-UJUf0dDI6xq6iitksPXrfLwu2Gc143LGFHMlVnRPZxkoLz1xIzKbkQVxrqxqNmandsSmhWfkGw//U2BsBH/QRw==}
+  /@html-eslint/core/0.66.0:
+    resolution: {integrity: sha512-7zO32H2x91leamTOnslX2T6hGyeTLtXQeQF89QVw5Na1iqJul39fEVX/MCpwEC6195G30tzhSJuqjDU5HIM6VA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     dependencies:
-      '@html-eslint/types': 0.65.0
+      '@html-eslint/types': 0.66.0
       html-standard: 0.0.13
     dev: true
 
-  /@html-eslint/eslint-plugin/0.65.0_eslint@8.57.1:
-    resolution: {integrity: sha512-zYa4ARNbkp/GPlIY+1NFV5v6H3EDs+jby4/rFnZDaS/S3mFEvBail4+dPqugHljrBmAZ0UkxMATR696ypRvPCQ==}
+  /@html-eslint/eslint-plugin/0.66.0_eslint@8.57.1:
+    resolution: {integrity: sha512-Oha7l7nENQHw5aCLzWaHyyF5bqrA1ODEbowEifMejMHM6Vauj6jJh8M/msIdnKwUBglPTkvFDH9vGaZVmGggfw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.0.0 || ^10.0.0-0'
     dependencies:
       '@eslint/plugin-kit': 0.4.1
-      '@html-eslint/core': 0.65.0
-      '@html-eslint/parser': 0.65.0
-      '@html-eslint/template-parser': 0.65.0
-      '@html-eslint/template-syntax-parser': 0.65.0
-      '@html-eslint/types': 0.65.0
+      '@html-eslint/core': 0.66.0
+      '@html-eslint/parser': 0.66.0
+      '@html-eslint/template-parser': 0.66.0
+      '@html-eslint/template-syntax-parser': 0.66.0
+      '@html-eslint/types': 0.66.0
       '@rviscomi/capo.js': 2.3.0
       eslint: 8.57.1
       html-standard: 0.0.13
     dev: true
 
-  /@html-eslint/parser/0.65.0:
-    resolution: {integrity: sha512-sMZ8D60uQ/yLKViiqkzX3vnpBwcBNE8x/Ax8roAdrLiErkJ4wLMdXq+kmRm0rqfTuC0mqPJ+7uRTAgUB6wXg2w==}
+  /@html-eslint/parser/0.66.0:
+    resolution: {integrity: sha512-/KE6i8DIO1TAL0YvAgqaXWKduvlnnj1Sy2PXM3UKJZsk0798sLrKMKOl6sXH8QuNxXsPsW1hlxIHsho9UfZI1A==}
     dependencies:
-      '@html-eslint/template-syntax-parser': 0.65.0
-      '@html-eslint/types': 0.65.0
+      '@html-eslint/template-syntax-parser': 0.66.0
+      '@html-eslint/types': 0.66.0
       css-tree: 3.2.1
       es-html-parser: 0.3.1
     dev: true
 
-  /@html-eslint/template-parser/0.65.0:
-    resolution: {integrity: sha512-gUc9D4PaV5uvQjR21Q1wumbe2Qyf6decJjCZCpM77kZ7mMprIDvnF4LgCJBkTldidc4j1GzJvqkJ5e+r+skFyw==}
+  /@html-eslint/template-parser/0.66.0:
+    resolution: {integrity: sha512-eGo6mfWFahcVQE3+CGAK12QaYIURG8/xwb8ITw+5lrn0Mo1yUXFgdBODjx7E0Sd9sZ2FVw8JzMjMgxo4ntFdzA==}
     dependencies:
-      '@html-eslint/types': 0.65.0
+      '@html-eslint/types': 0.66.0
       es-html-parser: 0.3.1
     dev: true
 
-  /@html-eslint/template-syntax-parser/0.65.0:
-    resolution: {integrity: sha512-Kh7TFOM4cYcutzGZdWKxnZJpWpuZwu4hcSxbn/PHVBgDOytKOwpuPvCKn1+B11fSFxLhrrR3RHvsBVknntpcbA==}
+  /@html-eslint/template-syntax-parser/0.66.0:
+    resolution: {integrity: sha512-HLHSaH0e4udBFqE+GDexZnXBSyaB4Mo42UfYQo+/hyFXMnY8QBWaFFqsKL/vwWccX1hAaC5nKDdKldoVPDgugw==}
     dependencies:
-      '@html-eslint/types': 0.65.0
+      '@html-eslint/types': 0.66.0
     dev: true
 
-  /@html-eslint/types/0.65.0:
-    resolution: {integrity: sha512-bWMTSRwFXwvturEYvA5ng43+jpFh9FTpAgC2HE3O0ijsde40VcoO6DtcjFl7QY8AW5O/PeisDDl1Hbe5q89wsg==}
+  /@html-eslint/types/0.66.0:
+    resolution: {integrity: sha512-QrUudu/EA47xIE0nN5Wf0LlMkz1vGB/rks/3D/+9KtlmUzpGOn562AShyz1fYE1OBFjjEk86pJmCkHhIm4WO7g==}
     dependencies:
       '@types/css-tree': 2.3.11
       '@types/estree': 1.0.9
