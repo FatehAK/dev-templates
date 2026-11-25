@@ -2,8 +2,8 @@ lockfileVersion: 5.4
 
 specifiers:
   '@commitlint/cli': ^17.8.1
-  '@html-eslint/eslint-plugin': ^0.68.0
-  '@html-eslint/parser': ^0.68.0
+  '@html-eslint/eslint-plugin': ^0.69.0
+  '@html-eslint/parser': ^0.69.0
   '@rollup/plugin-strip': ^3.0.4
   '@vitejs/plugin-legacy': ^4.1.1
   browserslist-to-esbuild: ^1.2.0
@@ -50,8 +50,8 @@ dependencies:
 
 devDependencies:
   '@commitlint/cli': 17.8.1
-  '@html-eslint/eslint-plugin': 0.68.0_eslint@8.57.1
-  '@html-eslint/parser': 0.68.0
+  '@html-eslint/eslint-plugin': 0.69.0_eslint@8.57.1
+  '@html-eslint/parser': 0.69.0
   '@rollup/plugin-strip': 3.0.4
   '@vitejs/plugin-legacy': 4.1.1_terser@5.51.4+vite@4.5.14
   browserslist-to-esbuild: 1.2.0
@@ -1960,55 +1960,55 @@ packages:
       levn: 0.4.1
     dev: true
 
-  /@html-eslint/core/0.68.0:
-    resolution: {integrity: sha512-u3HioqcKIH6dVQp2uulmpcuUqgKLqiuOWyHAl7hV4hIUkuJ3ge7vEUwPoWvNRbfy3aWOMygttokdGxL5q9YFIg==}
+  /@html-eslint/core/0.69.0:
+    resolution: {integrity: sha512-iRKWw9NADbJ4nyZSPKQOlLrWail1cPHFRzTTfYKID9YCkIEwfSFdWOAS+dxL2pG7XcU+XBufvouYZQaJ+L5K8Q==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     dependencies:
-      '@html-eslint/types': 0.68.0
-      html-standard: 0.0.13
+      '@html-eslint/types': 0.69.0
+      html-standard: 0.0.14
     dev: true
 
-  /@html-eslint/eslint-plugin/0.68.0_eslint@8.57.1:
-    resolution: {integrity: sha512-fiR8UTYBr4+fGftEG1u+tT3AiuOSowvSZbsY4tLcMl9hOuFzquHw4BIaFFlV3xTeqF5Y0M69aPJoEhFJUkQyog==}
+  /@html-eslint/eslint-plugin/0.69.0_eslint@8.57.1:
+    resolution: {integrity: sha512-YJo4rF+lwzXXgPyf7Pq/H0qsW0VkOq52dUqhXyP3K+OHc/h84MzR2kZBF2SqbEXNLjGJGd0kv1upLHGA4OQiXQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.0.0 || ^10.0.0-0'
     dependencies:
       '@eslint/plugin-kit': 0.4.1
-      '@html-eslint/core': 0.68.0
-      '@html-eslint/parser': 0.68.0
-      '@html-eslint/template-parser': 0.68.0
-      '@html-eslint/template-syntax-parser': 0.68.0
-      '@html-eslint/types': 0.68.0
+      '@html-eslint/core': 0.69.0
+      '@html-eslint/parser': 0.69.0
+      '@html-eslint/template-parser': 0.69.0
+      '@html-eslint/template-syntax-parser': 0.69.0
+      '@html-eslint/types': 0.69.0
       '@rviscomi/capo.js': 2.3.1
       eslint: 8.57.1
-      html-standard: 0.0.13
+      html-standard: 0.0.14
     dev: true
 
-  /@html-eslint/parser/0.68.0:
-    resolution: {integrity: sha512-X22bU2qzEpzPI0bHtnfXzoUS8q/It/DNycJnIdsPzBDXcly+PItV5AJU4nm/+9FZCXSE3IZJvORRCTuvvpV8Bg==}
+  /@html-eslint/parser/0.69.0:
+    resolution: {integrity: sha512-ueODnrY9N0I5pglHOXY+X3nvwh9FAbkXS7XTrGNUpk+TQW5AIbcpj8DR8KnzM/0Of0/lBdYtxXB6lgyIsKqy1A==}
     dependencies:
-      '@html-eslint/template-syntax-parser': 0.68.0
-      '@html-eslint/types': 0.68.0
+      '@html-eslint/template-syntax-parser': 0.69.0
+      '@html-eslint/types': 0.69.0
       css-tree: 3.2.1
       es-html-parser: 0.3.2
     dev: true
 
-  /@html-eslint/template-parser/0.68.0:
-    resolution: {integrity: sha512-zLgikGAF7izvrvUefy5EBEl6WpM0sTN9xzldwp7UgkkjR+zaFvqi9YsOWj+Y7Tu3XMXI0d7Gxv7PPPumVmJTuw==}
+  /@html-eslint/template-parser/0.69.0:
+    resolution: {integrity: sha512-vNxrx7B9lLom4K7vrCQzzbIaspdOa+M30NW8yRVnowKRvHMsLR9Qw3OZ6LhUynNQ8QdrhXT9e8AoXZstSHZv7A==}
     dependencies:
-      '@html-eslint/types': 0.68.0
+      '@html-eslint/types': 0.69.0
       es-html-parser: 0.3.2
     dev: true
 
-  /@html-eslint/template-syntax-parser/0.68.0:
-    resolution: {integrity: sha512-qbIF3MqmRckg6pXhwY/Ytxnb0eOoq5LPVt9wq8N4UBQHxL2z4cF407FHAiLNhpy8DO4AJUQbI6IZzhN8fHkvPA==}
+  /@html-eslint/template-syntax-parser/0.69.0:
+    resolution: {integrity: sha512-ZinGi4xjgM1evokVb7qVvaJGbpgspw7qSajSyFopl5CN61awDSYD2V0mlhJcqy4DTO+SZDdm47f9y1D5ru5EKg==}
     dependencies:
-      '@html-eslint/types': 0.68.0
+      '@html-eslint/types': 0.69.0
     dev: true
 
-  /@html-eslint/types/0.68.0:
-    resolution: {integrity: sha512-FW+FjFHp/w1V4uZ0us7keR6mAA+WGh6OsHvJ+Kzy8aBeogyOapDPEMT+zkXSsiJ+V9maJ6umqG20BXcs2y6lsw==}
+  /@html-eslint/types/0.69.0:
+    resolution: {integrity: sha512-7UWvjxcvXLwFWNm/QL2ZgeQbDsAQmX7DHmfQ4sAf/rlKyRtEzdEhVYVmIPU94VInMmLUXiT60ewy0RY8R3bPxg==}
     dependencies:
       '@types/css-tree': 2.3.11
       '@types/estree': 1.0.10
@@ -4720,8 +4720,8 @@ packages:
       terser: 5.51.4
     dev: true
 
-  /html-standard/0.0.13:
-    resolution: {integrity: sha512-6oNfW3c1t44O7jVXu0tp4E5MbHifWlXrHlZBPt6y7vFdgLOUUh8hyzoRhfUgozlBUK6oLLYhqP1uIqbZ8ggcBA==}
+  /html-standard/0.0.14:
+    resolution: {integrity: sha512-n13hx2WxkTyMJMX63ZRgx8bNuPeplezhXo6vWITmgt1PguHbenOH7bj7T546nAh10gYvkyquCzXgQ7mxxoRIWQ==}
     dependencies:
       vscode-css-languageservice: 6.3.10
       vscode-languageserver-textdocument: 1.0.16
